@@ -1,0 +1,4 @@
+{
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.extraPaths": ["./instafilter-0.3.2/build/lib"]
+}

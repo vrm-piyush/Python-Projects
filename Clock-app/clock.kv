@@ -1,0 +1,78 @@
+<label>
+    font_name: 'Roboto'
+    font_size: 60
+    markup: True
+
+<RobotoButton@Button>
+    background_normal: 'images/button_down.png'
+    background_down: 'images/button_down.png'
+    border: (2, 2, 2, 2)
+    font_name: 'Roboto'
+    font_size: 25
+    bold: True
+
+BoxLayout:
+    orientation: 'vertical'
+    spacing: dp(20)
+    
+
+    Label:
+        id: time
+        text: '[b]00[/b]:00:00'
+        size_hint_y: None
+        height: self.texture_size[1] + dp(100)
+        accessibility_hint: 'Current time display'
+        markup: True
+    
+
+    BoxLayout:
+        height: dp(90)
+        orientation: 'horizontal'
+        padding: dp(20)
+        spacing: dp(20)
+        size_hint: (1, None)
+
+        RobotoButton:
+            id: start_stop
+            text: 'Start'
+            content_description: 'Start Button'
+            on_press: app.start_stop()
+
+        RobotoButton:
+            id: reset
+            text: 'Reset'
+            background_normal: 'images/red_button_normal.png'
+            background_down: 'images/red_button_down.png'
+            on_press: app.reset()
+
+        RobotoButton:
+            text: 'Lap'
+            on_press: app.mark_lap()
+
+        RobotoButton:
+            text: 'Set Alarm'
+            on_press: app.show_alarm_settings_popup()
+
+    Label:
+        id: stopwatch
+        text: '[size=40]00[/size]:[size=40]00[/size].[size=20]00[/size]'
+
+    ScrollView:
+        Label:
+            id: lap_times
+            text: ''
+            size_hint_y: None
+            height: self.texture_size[1]
+            font_size: dp(20)
+    
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint_y: None
+        height: dp(60)
+        spacing: dp(20)
+        padding: dp(10)
+
+        RobotoButton:
+            id: toggle_dark_mode
+            text: 'Toggle Dark Mode'
+            on_press: app.toggle_dark_mode()

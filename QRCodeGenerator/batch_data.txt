@@ -1,0 +1,3 @@
+https://chat.openai.com/c/f7efbde8-04e8-4b94-bf94-04786724a715,chat.png
+https://www.instagram.com/,insta.png
+In your batch processing loop, you're expecting each line in the batch file to contain only two values (data and output filename), but the error indicates that there are too many data entries.,text.png
