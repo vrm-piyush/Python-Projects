@@ -83,4 +83,8 @@ This repository is at version 1.0.0.
 
 Please refer to `requirements.txt` file for dependencies.
 
+## Security Policy
+
+Please refer to [SECURITY.md](https://github.com/vrm-piyush/Python-Projects/blob/984ff907e01d3722c833d94a3330f2b36cab5a38/SECURITY.md) for information on security policies, vulnerability reporting, and supported versions.
+
 ---
