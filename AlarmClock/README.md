@@ -54,34 +54,8 @@ Setting alarm for 08:30:00 AM...
 Wake Up!!
 ```
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/vrm-piyush/AlarmClock.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd AlarmClock
-   ```
-
-3. Install the required library:
-
-   ```bash
-   pip install pygame
-   ```
-
-4. Run the program:
-
-   ```bash
-   python alarm_clock.py
-   ```
-
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/AlarmClock/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/AlarmClock/issues) or refer to [contribution guidelines](CONTRIBUTING.md) for more details.
 
 ---
