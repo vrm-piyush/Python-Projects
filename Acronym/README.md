@@ -62,6 +62,6 @@ The acronym for 'Artificial Intelligence' is: A-I
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](CONTRIBUTING.md) for more details.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](https://github.com/vrm-piyush/Python-Projects/blob/4c4b858351b2548d2042f9bd501cfef07e9c93a2/CONTRIBUTING.md) for more details.
 
 ---
