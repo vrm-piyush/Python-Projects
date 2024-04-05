@@ -60,28 +60,8 @@ Enter acronym casing ('upper' or 'lower'): upper
 The acronym for 'Artificial Intelligence' is: A-I
 ```
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/vrm-piyush/Acronym.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd Acronym
-   ```
-
-3. Run the program:
-
-   ```bash
-   python acronym.py
-   ```
-
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](CONTRIBUTING.md) for more details.
 
 ---
