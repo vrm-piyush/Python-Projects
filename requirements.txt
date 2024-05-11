@@ -511,7 +511,7 @@ weasel==0.3.4
 webencodings==0.5.1
 WebOb==1.8.7
 websocket-client @ file:///C:/ci/websocket-client_1614804375980/work
-Werkzeug==3.0.1
+Werkzeug==3.0.3
 whatthepatch @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_e7bihs8grh/croots/recipe/whatthepatch_1661796085215/work
 widgetsnbextension @ file:///C:/b/abs_882k4_4kdf/croot/widgetsnbextension_1679313880295/work
 wikipedia==1.4.0
