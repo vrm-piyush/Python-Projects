@@ -452,7 +452,7 @@ sphinxcontrib-serializinghtml @ file:///tmp/build/80754af9/sphinxcontrib-seriali
 spyder @ file:///C:/b/abs_e99kl7d8t0/croot/spyder_1681934304813/work
 spyder-kernels @ file:///C:/b/abs_e788a8_4y9/croot/spyder-kernels_1691599588437/work
 SQLAlchemy @ file:///C:/b/abs_d3tao6jnck/croot/sqlalchemy_1695720955292/work
-sqlparse==0.4.4
+sqlparse==0.5.0
 srsly==2.4.8
 stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
 statsmodels @ file:///C:/b/abs_7bth810rna/croot/statsmodels_1689937298619/work
