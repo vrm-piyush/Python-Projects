@@ -108,7 +108,7 @@ diff-match-patch @ file:///Users/ktietz/demo/mc3/conda-bld/diff-match-patch_1630
 dill @ file:///C:/b/abs_42h_07z1yj/croot/dill_1667919550096/work
 distlib==0.3.8
 distributed @ file:///C:/b/abs_7509xfv227/croot/distributed_1686866088894/work
-Django==4.2.3
+Django==4.2.11
 dnspython==2.6.1
 docstring-to-markdown @ file:///C:/b/abs_cf10j8nr4q/croot/docstring-to-markdown_1673447652942/work
 docutils @ file:///C:/Windows/TEMP/abs_24e5e278-4d1c-47eb-97b9-f761d871f482dy2vg450/croots/recipe/docutils_1657175444608/work
