@@ -19,8 +19,9 @@ Methods:
 
 """
 
-from Settings import *
+from Settings import CELL_SIZE, START_COL, START_LENGTH, START_ROW, logging, pygame
 from os import walk
+from os.path import join
 
 class Snake:
     def __init__(self):

@@ -1,10 +1,49 @@
-# Python Projects Repository
+![Star Badge](https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99)  
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103) &nbsp; [![View My Profile](https://img.shields.io/badge/View-My_Profile-green?logo=GitHub)](https://github.com/vrm-piyush)&nbsp; [![View Repositories](https://img.shields.io/badge/View-My_Repositories-blue?logo=GitHub)](https://github.com/vrm-piyush?tab=repositories)
 
-Welcome to the Python Projects Repository! This repository contains a collection of Python projects covering various domains and functionalities.
+# Python Projects
+
+> Welcome to the Python Projects Repository! This repository contains a collection of Python projects covering various domains and functionalities.
 
 ## Description
 
-This repository is a compilation of Python projects developed for learning, practice, and exploration of different programming concepts. Each project is designed to demonstrate specific features of the Python programming language and its libraries.
+> This repository is a compilation of Python projects developed for learning, practice, and exploration of different programming concepts. Each project is designed to demonstrate specific features of Python programming language and its libraries.
+
+<br>
+
+![Issues](https://img.shields.io/github/issues/vrm-piyush/python-projects?style=social&logo=github) &nbsp;
+![Pull Requests](https://img.shields.io/github/issues-pr/vrm-piyush/python-projects?style=social&logo=github) &nbsp;
+![Forks](https://img.shields.io/github/forks/vrm-piyush/python-projects?style=social&logo=github) &nbsp;
+![Stars](https://img.shields.io/github/stars/vrm-piyush/python-projects?style=social&logo=github) &nbsp;
+
+## Requirements
+
+Please refer to `requirements.txt` file for dependencies.
+
+## Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/vrm-piyush/Python-Projects.git
+   ```
+
+2. **Navigate to the project directory**:
+
+   ```bash
+   cd Python-Projects
+   ```
+
+3. **Run the program**:
+
+   For example, if you want to run the `Acronym` project:
+
+   ```bash
+   cd Acronym
+   python Acronym.py
+   ```
+
+   Replace `(projectname.py)` with the actual Python file name.
 
 ## Projects
 
@@ -46,31 +85,6 @@ This repository is a compilation of Python projects developed for learning, prac
 - **[URLShortener](URLShortener/)**: Shortens URLs.
 - **[WeightConverter](WeightConverter/)**: Converts weights between different units.
 
-## Installation
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/vrm-piyush/Python-Projects.git
-   ```
-
-2. **Navigate to the project directory**:
-
-   ```bash
-   cd Python-Projects
-   ```
-
-3. **Run the program**:
-
-   For example, if you want to run the `Acronym` project:
-
-   ```bash
-   cd Acronym
-   python Acronym.py
-   ```
-
-   Replace `(projectname.py)` with the actual Python file name.
-
 ## Contribution
 
 Contributions are welcome! If you have any suggestions, improvements, or new project ideas, feel free to open an issue or create a pull request. Please make sure to follow the [contribution guidelines](CONTRIBUTING.md).
@@ -78,9 +92,5 @@ Contributions are welcome! If you have any suggestions, improvements, or new pro
 ## Version
 
 This repository is at version 1.0.0.
-
-## Requirements
-
-Please refer to `requirements.txt` file for dependencies.
 
 ---
