@@ -13,12 +13,8 @@ Settings for the Snake Game
 
 """
 
-from pygame.locals import *
+from pygame.locals import K_UP, K_DOWN, K_LEFT, K_RIGHT, K_w, K_s, K_a, K_d, K_i, K_k, K_j, K_l
 import pygame
-from sys import exit
-from os.path import join
-import random
-import time
 import logging
 
 # Set up logging to a file named 'snake.log'
@@ -126,59 +122,3 @@ IJKL_KEYS = {
     'left': K_j, 
     'right': K_l
 }
-
-
-"""
-The implementation of features can depend on the complexity you want to introduce to the game. Here's a suggested order for implementing the features:
-
-1. Levels : Start by implementing multiple levels with increasing difficulty. Introduce basic obstacles or changes in the game environment to make each level unique.
-
-2. Pause and Resume : Implement a pause feature to allow players to pause the game and resume later without losing progress. This is essential for a smooth gameplay experience.
-
-3. Responsive Controls : Enhance the responsiveness of controls to ensure smooth and precise movement for the snake. Responsive controls are crucial for a satisfying gameplay experience.
-
-4. Obstacles : Introduce obstacles that the snake must navigate around. This adds complexity to the gameplay and challenges players to strategize their movements.
-
-5. Animations : Add more animations for special events, such as the snake growing longer, power-up pickups, or level transitions. Animations can enhance the visual appeal of the game.
-
-6. Sound Effects : Expand the variety of sound effects based on different in-game events to make the experience more immersive. Sound effects contribute to the overall atmosphere of the game.
-
-7. Power-ups : Introduce special items that can either help the snake or add challenges. This adds variability to the gameplay and keeps players engaged.
-
-8. Randomized Apple Effects : Make the apple pickups more interesting by introducing randomized effects. This adds an element of surprise to the game.
-
-9. Scoreboard : Create a persistent scoreboard to track and display high scores across different game sessions. This provides a competitive aspect to the game.
-
-10. Settings Menu : Allow players to customize the game settings_text. Implement a settings_text menu where players can adjust sound volume, difficulty level, or choose different snake skins.
-
-11. Game Over Screen : Create a more engaging game over screen with a summary of the player's performance. Encourage players to play again or share their scores.
-
-12. Achievements and Rewards : Add achievements or rewards for completing specific challenges or reaching certain milestones. This gives players additional goals to strive for.
-
-13. Customizable Snake : Allow players to customize the appearance of the snake with different colors, patterns, or accessories. This adds a personal touch to the gameplay.
-
-14. Tutorial : Include a tutorial or guide for new players to understand the game mechanics and controls. This ensures that players can quickly grasp the basics.
-
-15. Mobile Compatibility : Adapt the game for mobile devices with touch controls and an optimized user interface. This expands the potential audience for the game.
-
-16. Multiplayer Mode : Consider implementing a local or online multiplayer mode where players can compete or cooperate in real-time. This is a more advanced feature that can be added later for a richer gaming experience.
-
-
-Separation of Concerns:
-Consider breaking down your Main class further. It's handling a lot of responsibilities, including game initialization, drawing, input handling, and more. Consider creating separate classes for these responsibilities (e.g., Game, InputHandler, etc.) to achieve better separation of concerns.
-
-Code Comments:
-Add comments to explain complex sections of your code. This will make it easier for others (or even yourself in the future) to understand the logic behind certain decisions or implementations.
-
-Optimization:
-Optimize your code where possible. For example, consider using a sprite group for managing your snake's body segments for better performance.
-
-Error Handling:
-Implement error handling to gracefully handle potential issues, providing feedback to the user.
-
-Responsive Design:
-Ensure that the game looks good and is playable on different screen sizes and resolutions.
-
-Logging:
-Consider adding logging to help with debugging and understanding the flow of your game.
-"""
