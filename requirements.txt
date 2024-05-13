@@ -89,7 +89,7 @@ cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
 cymem==2.0.8
 Cython @ file:///C:/b/abs_0438epndxm/croots/recipe/cython_1663692771227/work
 cytoolz @ file:///C:/b/abs_61m9vzb4qh/croot/cytoolz_1667465938275/work
-daal4py==2023.1.1
+daal4py==2024.4.0
 darr==0.5.5
 dash==2.15.0
 dash-core-components==2.0.0
