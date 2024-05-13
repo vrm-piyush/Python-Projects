@@ -115,7 +115,7 @@ docutils @ file:///C:/Windows/TEMP/abs_24e5e278-4d1c-47eb-97b9-f761d871f482dy2vg
 EasyProcess==1.1
 elastic-transport==8.12.0
 elasticsearch==8.12.0
-email-validator==2.0.0.post2
+email-validator==2.1.1
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889
 entrypoint2==1.1
 entrypoints @ file:///C:/ci/entrypoints_1649926621128/work
