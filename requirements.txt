@@ -1,5 +1,5 @@
 aiobotocore @ file:///C:/b/abs_1c1a_vjay2/croot/aiobotocore_1682537737724/work
-aiodns==3.1.1
+aiodns==3.2.0
 aiofiles @ file:///C:/b/abs_9ex6mi6b56/croot/aiofiles_1683773603390/work
 aiohttp @ file:///C:/b/abs_b78zt6vo64/croot/aiohttp_1694181126607/work
 aiohttp-socks==0.8.4
