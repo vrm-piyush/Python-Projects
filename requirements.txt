@@ -22,7 +22,7 @@ astroid @ file:///C:/b/abs_d4lg3_taxn/croot/astroid_1676904351456/work
 astropy @ file:///C:/b/abs_2fb3x_tapx/croot/astropy_1697468987983/work
 asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
 async-timeout @ file:///C:/b/abs_43ozhz2a8g/croots/recipe/async-timeout_1664876362767/work
-atomicwrites==1.4.0
+atomicwrites==1.4.1
 attrs @ file:///C:/b/abs_35n0jusce8/croot/attrs_1695717880170/work
 Automat @ file:///tmp/build/80754af9/automat_1600298431173/work
 autopep8 @ file:///opt/conda/conda-bld/autopep8_1650463822033/work
