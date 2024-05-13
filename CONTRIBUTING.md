@@ -63,7 +63,7 @@ Learn more about [forking](https://help.github.com/en/github/getting-started-wit
 
 <details>
 <summary>
-4. Create your feature branch 
+4. Create a new feature branch 
 </summary>
 
 Always keep your local copy of the repository updated with the original repository.
@@ -85,7 +85,7 @@ git checkout <master>
 git pull upstream <master>
 
 # Make a feature branch (Always check your current branch is up to date before creating a new branch from it to avoid merge conflicts)
-git checkout -b <branch-name>
+git checkout -b <feature-branch-name>
 
 #
 ```
@@ -96,78 +96,91 @@ git checkout -b <branch-name>
 
 <details>
 <summary>
-5. Ready, Set, Go...
+5. Make your changes
 </summary>
-
-Once you have completed these steps, you are ready to start contributing to the project and creating **pull requests**.
 
 - Create a folder in
   [projects directory](https://github.com/vrm-piyush/python-projects) according to your project name.
-  > The folder name should follow the following format "Your_Project_Name_Here". For example: Dice_Stimulator
+  > The folder name should follow the following format "YourProjectNameHere". For example: DiceStimulator
 - Write your code and add to the respective folder in the projects directory, locally.
 - Don't forget to add a `README.md` in your folder, according to the
   [README_TEMPLATE.](README_TEMPLATE.md)
 
-2. **Clone the forked repository**: Use the following command to clone the forked repository to your local machine:
+Implement your changes or additions to the project and commit them to your branch:
 
-3. **Create a new branch**: Choose a descriptive name for your feature or bug fix branch and create it with the following command:
+```bash
+git add .
+git commit -m "Your descriptive commit message"
+```
 
-   ```bash
-   git checkout -b feature-branch-name
-   ```
+</details>
 
-4. **Make your changes**: Implement your changes or additions to the project and commit them to your branch:
+---
 
-   ```bash
-   git add .
-   git commit -m "Your descriptive commit message"
-   ```
+<details>
+<summary>
+6. Push your changes
+</summary>
 
-5. **Push your changes**: Push your branch to your forked repository with the following command:
+Push your branch to your forked repository with the following command:
 
-   ```bash
-   git push origin feature-branch-name
-   ```
+```bash
+git push origin feature-branch-name
+```
 
-6. **Open a pull request (PR)**: Open a pull request from your forked repository to the main repository. Provide a clear and descriptive title for your PR and explain the changes you've made.
+</details>
 
-## Code Style Guidelines
+---
 
-- **Follow PEP 8 guidelines**: Adhere to the PEP 8 style guide for Python code.
-- **Use clear and descriptive names**: Choose meaningful variable and function names.
-- **Write docstrings**: Document functions and modules as needed for clarity.
-- **Use comments**: Explain complex sections of code with comments for better understanding.
+<details>
+<summary>
+7. Open a pull request (PR)
+</summary>
+
+- **Method 1:** GitHub Desktop
+
+Learn more how to pull request from your local machine using **GitHub Desktop** to the main repo [here](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/viewing-a-pull-request-in-github-desktop).
+
+- **Method 2:** Git
+
+Go to the GitHub page of _your fork_, and **make a pull request**:
+
+![pull request image](https://i.ytimg.com/vi/rgbCcBNZcdQ/maxresdefault.jpg)
+
+Read more about pull requests on the [GitHub help pages](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+Now wait, until _your Pull Request_ is approved! If there are any conflicts, you will get a notification.
+
+</details>
+
+---
 
 ## Reporting Bugs
 
-If you encounter any bugs or issues with the projects in this repository, please open an issue on the GitHub issue tracker. Provide detailed information about the bug, including steps to reproduce it and any relevant error messages.
+If you encounter any bugs or issues with the projects in this repository, please open an issue on the GitHub issue tracker. Provide detailed information about the bug, including steps to reproduce it and any relevant error messages. Please make sure to follow the [bug tempalte](.github\ISSUE_TEMPLATE\bug_report.md).
 
 ## Feature Requests
 
-If you have ideas for new projects or features to add to existing projects, feel free to open an issue on the GitHub issue tracker. Describe your idea or feature request in detail, and it will be considered for future development.
-
-## Contact
-
-If you have any questions or need further assistance, feel free to contact me.
-
----
+If you have ideas for new projects or features to add to existing projects, feel free to open an issue on the GitHub issue tracker. Describe your idea or feature request in detail, and it will be considered for future development. Please make sure to follow the [feature request](.github\ISSUE_TEMPLATE\feature_request.md).
 
 ## Guidelines
 
+When contributing to the projects in this repository, please follow these guidelines to ensure a smooth development process and maintain code consistency across the repository.
+
+### Code Style
+
 To ensure that your contributions are accepted with ease, please follow these guidelines:
 
+- **Follow PEP 8 guidelines**: Adhere to the PEP 8 style guide for Python code.
 - **Create a new folder for each project**: Each project should have its own folder in the repository.
-- **Use clear and descriptive names**: Choose meaningful names for variables, functions, and files.
-- **Include a README**: Each project should include a README file that describes the project and how to run it.
-- **Follow the PEP 8 style guide**: Adhere to the PEP 8 style guide for Python code.
+- **Use clear and descriptive names**: Choose meaningful variable and function names.
+- **Write docstrings**: Document functions and modules as needed for clarity.
 - **Use comments**: Explain complex sections of code with comments for better understanding.
-- **Document functions**: Include docstrings for functions to describe their purpose and usage.
+- **Include a README**: Each project should include a README file that describes the project and how to run it.
 - **Avoid hardcoding**: Use variables and configuration files to avoid hardcoding values.
 - **Test your code**: Ensure that your code is correct and runs without errors before submitting a PR.
 
----
-
-### Git Guidelines
+### Git
 
 - **Create a new branch**: Always create a new branch for your changes.
 - **Keep your branch updated**: Regularly update your branch with the main branch to avoid conflicts.
@@ -177,21 +190,11 @@ To ensure that your contributions are accepted with ease, please follow these gu
 - **Keep pull requests small**: Submit small pull requests with a single change instead of multiple changes.
 - **Close issues with pull requests**: Reference the issue number in the pull request description to close the issue automatically.
 
-## Development Guidelines
-
-When contributing to the projects in this repository, please follow these guidelines to ensure a smooth development process and maintain code consistency across the repository.
-
-### Issues Guidelines
+### Issues
 
 - **Search for existing issues**: Check the issue tracker to see if someone has already reported the issue or suggested the feature.
 - **Provide detailed information**: Include detailed information about the issue or feature request to help others understand it.
 - **Follow the template**: Use the issue template to provide the necessary information and context for your issue.
-
-## Acknowledgements
-
-- [GitHub Docs](https://docs.github.com/en) - For providing detailed guides on using GitHub features.
-- [Git Handbook](https://guides.github.com/introduction/git-handbook/) - For explaining how to use Git and GitHub effectively.
-- [Open Source Guides](https://opensource.guide/) - For providing resources on open source projects and contributions.
 
 ## Support
 
@@ -215,3 +218,9 @@ Please read the [Code of Conduct](CODE_OF_CONDUCT.md) before contributing to thi
 ## Contributors
 
 A big thank you to all the contributors who have helped improve this repository with their suggestions and contributions!
+
+## Contact
+
+If you have any questions or need further assistance, feel free to contact me.
+
+---
