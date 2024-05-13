@@ -467,7 +467,7 @@ testpath @ file:///C:/Windows/TEMP/abs_23c7fa33-cbb9-46dc-b7c5-590c38e2de3d4bmbn
 text-unidecode @ file:///Users/ktietz/demo/mc3/conda-bld/text-unidecode_1629401354553/work
 textblob==0.17.1
 textdistance @ file:///tmp/build/80754af9/textdistance_1612461398012/work
-thinc==8.2.2
+thinc==9.0.0
 threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
 three-merge @ file:///tmp/build/80754af9/three-merge_1607553261110/work
 tifffile @ file:///C:/b/abs_45o5chuqwt/croot/tifffile_1695107511025/work
