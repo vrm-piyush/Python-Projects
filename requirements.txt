@@ -273,7 +273,7 @@ numpy @ file:///C:/Users/dev-admin/mkl/numpy_and_numpy_base_1682982345978/work
 numpydoc @ file:///C:/b/abs_cfdd4zxbga/croot/numpydoc_1668085912100/work
 olefile @ file:///Users/ktietz/demo/mc3/conda-bld/olefile_1629805411829/work
 opencv-python==4.9.0.80
-openpyxl==3.0.10
+openpyxl==3.1.2
 outcome==1.2.0
 packaging @ file:///C:/b/abs_28t5mcoltc/croot/packaging_1693575224052/work
 pandas==2.2.0
