@@ -2,18 +2,16 @@
 
 Thank you for your interest in contributing to the Python Projects Repository! Your contributions help improve the quality and diversity of the projects in this repository. Whether you want to suggest an improvement, report a bug, or add a new project, your contributions are highly appreciated.
 
-## How to Contribute
+## ![image](assets\contributing.png) How to Contribute
 
 To contribute to this repository, please follow these steps:
-
-## ![image](assets\contributing.png) Contributing
 
 <details>
 <summary>
 1. Star The Repo
 </summary>
 
-Star the repo by pressing the topmost-right button to start your wonderful journey
+Star the repo by pressing the top most-right button to start your wonderful journey
 
 ![star repo](https://docs.github.com/assets/images/help/stars/starring-a-repository.png)
 
@@ -23,10 +21,10 @@ Star the repo by pressing the topmost-right button to start your wonderful journ
 
 <details>
 <summary>
-2. Fork it
+2. Fork the repository
 </summary>
 
-On the [GitHub page for this repository](https://github.com/vrm-piyush/python-mini-project), click on the Button "**Fork**".
+Click the [**"Fork"**](https://github.com/vrm-piyush/python-mini-project) button on the top right corner of this page to create a copy of the repository in your GitHub account.
 
 ![fork image](https://upload.wikimedia.org/wikipedia/commons/3/38/GitHub_Fork_Button.png)
 
@@ -36,7 +34,7 @@ On the [GitHub page for this repository](https://github.com/vrm-piyush/python-mi
 
 <details>
 <summary>
-3. Clone it
+3. Clone the forked repository
 </summary>
 
 - **Method 1:** GitHub Desktop
@@ -49,15 +47,13 @@ Learn more about how to clone the remote respository on your local machine using
 
 - **Method 2:** Git
 
-Clone the forked repository. Open git bash and type:
+Use the following command to clone the forked repository to your local machine
 
 ```bash
-git clone https://github.com/<your-github-username>/python-mini-project.git
+git clone https://github.com/vrm-piyush/Python-Projects.git
 ```
 
 > This makes a local copy of the repository in your machine.
->
-> ⚠️ **Replace \<your-github-username\>!**
 
 Learn more about [forking](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) and [cloning a repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
@@ -112,13 +108,7 @@ Once you have completed these steps, you are ready to start contributing to the 
 - Don't forget to add a `README.md` in your folder, according to the
   [README_TEMPLATE.](README_TEMPLATE.md)
 
-1. **Fork the repository**: Click the "Fork" button on the top right corner of this page to create a copy of the repository in your GitHub account.
-
 2. **Clone the forked repository**: Use the following command to clone the forked repository to your local machine:
-
-   ```bash
-   git clone https://github.com/vrm-piyush/Python-Projects.git
-   ```
 
 3. **Create a new branch**: Choose a descriptive name for your feature or bug fix branch and create it with the following command:
 
