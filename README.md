@@ -47,43 +47,45 @@ Please refer to `requirements.txt` file for dependencies.
 
 ## Projects
 
-- **[Acronym](Acronym/)**: Generates acronyms from input phrases.
-- **[AlarmClock](AlarmClock/)**: A simple alarm clock program.
-- **[AnimalQuizGame](AnimalQuizGame/)**: A quiz game about animals.
-- **[ArticleToSpeechConverter](ArticleToSpeechConverter/)**: Converts articles into speech.
-- **[BMICalculator](BMICalculator/)**: Calculates Body Mass Index (BMI).
-- **[BarcodeQRCodeReader](BarcodeQRCodeReader/)**: Reads barcodes and QR codes from images.
-- **[CalculatorGUI](CalculatorGUI/)**: Graphical User Interface (GUI) calculator.
-- **[CalendarApp](CalendarApp/)**: Calendar application with basic functionalities.
-- **[CardGameProgram](CardGameProgram/)**: Simulates various card games.
-- **[ChessboardProgram](ChessboardProgram/)**: Draws a chessboard pattern.
-- **[CircularFractalTree](CircularFractalTree/)**: Generates circular fractal tree patterns.
-- **[Clock-app](Clock-app/)**: Simple digital clock application.
-- **[ColoredTextPrinter](ColoredTextPrinter/)**: Prints text in different colors.
-- **[DesktopNotificationProgram](DesktopNotificationProgram/)**: Displays desktop notifications.
-- **[DiceRollSimulation](DiceRollSimulation/)**: Simulates rolling of dice.
-- **[DigitalClockGUI](DigitalClockGUI/)**: GUI based digital clock.
-- **[EmailParser](EmailParser/)**: Parses emails and extracts relevant information.
-- **[GameOfLife](GameOfLife/)**: Implements Conway's Game of Life.
-- **[ImageConverter](ImageConverter/)**: Converts images between different formats.
-- **[ImageFilter](ImageFilter/)**: Applies filters to images.
-- **[ImageToPencilSketch](ImageToPencilSketch/)**: Converts images into pencil sketches.
-- **[MontyHall](MontyHall/)**: Simulates the Monty Hall problem.
-- **[MultipleInputProgram](MultipleInputProgram/)**: Handles multiple types of user input.
-- **[MusicPlayerGUIProgram](MusicPlayerGUIProgram/)**: GUI based music player.
-- **[NumberGuessingGame](NumberGuessingGame/)**: Classic number guessing game.
-- **[PasswordGenerator](PasswordGenerator/)**: Generates random passwords.
-- **[PhoneCameraProgram](PhoneCameraProgram/)**: Simulates a phone camera application.
-- **[QRCodeGenerator](QRCodeGenerator/)**: Generates QR codes.
-- **[RainyDays](RainyDays/)**: Generates a rainy weather simulation.
-- **[RockPaperScissorsGame](RockPaperScissorsGame/)**: Classic rock-paper-scissors game.
-- **[RomanDecimalConverter](RomanDecimalConverter/)**: Converts Roman numerals to decimal and vice versa.
-- **[ShortStoryGenerator](ShortStoryGenerator/)**: Generates short stories based on user input.
-- **[Snake-Game](Snake-Game/)**: Classic snake game implementation.
-- **[TemperatureConverter](TemperatureConverter/)**: Converts temperatures between different units.
-- **[TicTacToeGame](TicTacToeGame/)**: Classic Tic-Tac-Toe game.
-- **[URLShortener](URLShortener/)**: Shortens URLs.
-- **[WeightConverter](WeightConverter/)**: Converts weights between different units.
+| Sl. No. | Project                                                       | Description                                        | Author                                        |
+| ------- | ------------------------------------------------------------- | -------------------------------------------------- | --------------------------------------------- |
+| 1       | **[Acronym](Acronym/)**                                       | Generates acronyms from input phrases.             | [Piyush Verma](https://github.com/vrm-piyush) |
+| 2       | **[AlarmClock](AlarmClock/)**                                 | A simple alarm clock program.                      | [Piyush Verma](https://github.com/vrm-piyush) |
+| 3       | **[AnimalQuizGame](AnimalQuizGame/)**                         | A quiz game about animals.                         | [Piyush Verma](https://github.com/vrm-piyush) |
+| 4       | **[ArticleToSpeechConverter](ArticleToSpeechConverter/)**     | Converts articles into speech.                     | [Piyush Verma](https://github.com/vrm-piyush) |
+| 5       | **[BMICalculator](BMICalculator/)**                           | Calculates Body Mass Index (BMI).                  | [Piyush Verma](https://github.com/vrm-piyush) |
+| 6       | **[BarcodeQRCodeReader](BarcodeQRCodeReader/)**               | Reads barcodes and QR codes from images.           | [Piyush Verma](https://github.com/vrm-piyush) |
+| 7       | **[CalculatorGUI](CalculatorGUI/)**                           | Graphical User Interface (GUI) calculator.         | [Piyush Verma](https://github.com/vrm-piyush) |
+| 8       | **[CalendarApp](CalendarApp/)**                               | Calendar application with basic functionalities.   | [Piyush Verma](https://github.com/vrm-piyush) |
+| 9       | **[CardGameProgram](CardGameProgram/)**                       | Simulates various card games.                      | [Piyush Verma](https://github.com/vrm-piyush) |
+| 10      | **[ChessboardProgram](ChessboardProgram/)**                   | Draws a chessboard pattern.                        | [Piyush Verma](https://github.com/vrm-piyush) |
+| 11      | **[CircularFractalTree](CircularFractalTree/)**               | Generates circular fractal tree patterns.          | [Piyush Verma](https://github.com/vrm-piyush) |
+| 12      | **[Clock-app](Clock-app/)**                                   | Simple digital clock application.                  | [Piyush Verma](https://github.com/vrm-piyush) |
+| 13      | **[ColoredTextPrinter](ColoredTextPrinter/)**                 | Prints text in different colors.                   | [Piyush Verma](https://github.com/vrm-piyush) |
+| 14      | **[DesktopNotificationProgram](DesktopNotificationProgram/)** | Displays desktop notifications.                    | [Piyush Verma](https://github.com/vrm-piyush) |
+| 15      | **[DiceRollSimulation](DiceRollSimulation/)**                 | Simulates rolling of dice.                         | [Piyush Verma](https://github.com/vrm-piyush) |
+| 16      | **[DigitalClockGUI](DigitalClockGUI/)**                       | GUI based digital clock.                           | [Piyush Verma](https://github.com/vrm-piyush) |
+| 17      | **[EmailParser](EmailParser/)**                               | Parses emails and extracts relevant information.   | [Piyush Verma](https://github.com/vrm-piyush) |
+| 18      | **[GameOfLife](GameOfLife/)**                                 | Implements Conway's Game of Life.                  | [Piyush Verma](https://github.com/vrm-piyush) |
+| 19      | **[ImageConverter](ImageConverter/)**                         | Converts images between different formats.         | [Piyush Verma](https://github.com/vrm-piyush) |
+| 20      | **[ImageFilter](ImageFilter/)**                               | Applies filters to images.                         | [Piyush Verma](https://github.com/vrm-piyush) |
+| 21      | **[ImageToPencilSketch](ImageToPencilSketch/)**               | Converts images into pencil sketches.              | [Piyush Verma](https://github.com/vrm-piyush) |
+| 22      | **[MontyHall](MontyHall/)**                                   | Simulates the Monty Hall problem.                  | [Piyush Verma](https://github.com/vrm-piyush) |
+| 23      | **[MultipleInputProgram](MultipleInputProgram/)**             | Handles multiple types of user input.              | [Piyush Verma](https://github.com/vrm-piyush) |
+| 24      | **[MusicPlayerGUIProgram](MusicPlayerGUIProgram/)**           | GUI based music player.                            | [Piyush Verma](https://github.com/vrm-piyush) |
+| 25      | **[NumberGuessingGame](NumberGuessingGame/)**                 | Classic number guessing game.                      | [Piyush Verma](https://github.com/vrm-piyush) |
+| 26      | **[PasswordGenerator](PasswordGenerator/)**                   | Generates random passwords.                        | [Piyush Verma](https://github.com/vrm-piyush) |
+| 27      | **[PhoneCameraProgram](PhoneCameraProgram/)**                 | Simulates a phone camera application.              | [Piyush Verma](https://github.com/vrm-piyush) |
+| 28      | **[QRCodeGenerator](QRCodeGenerator/)**                       | Generates QR codes.                                | [Piyush Verma](https://github.com/vrm-piyush) |
+| 29      | **[RainyDays](RainyDays/)**                                   | Generates a rainy weather simulation.              | [Piyush Verma](https://github.com/vrm-piyush) |
+| 30      | **[RockPaperScissorsGame](RockPaperScissorsGame/)**           | Classic rock-paper-scissors game.                  | [Piyush Verma](https://github.com/vrm-piyush) |
+| 31      | **[RomanDecimalConverter](RomanDecimalConverter/)**           | Converts Roman numerals to decimal and vice versa. | [Piyush Verma](https://github.com/vrm-piyush) |
+| 32      | **[ShortStoryGenerator](ShortStoryGenerator/)**               | Generates short stories based on user input.       | [Piyush Verma](https://github.com/vrm-piyush) |
+| 33      | **[Snake-Game](Snake-Game/)**                                 | Classic snake game implementation.                 | [Piyush Verma](https://github.com/vrm-piyush) |
+| 34      | **[TemperatureConverter](TemperatureConverter/)**             | Converts temperatures between different units.     | [Piyush Verma](https://github.com/vrm-piyush) |
+| 35      | **[TicTacToeGame](TicTacToeGame/)**                           | Classic Tic-Tac-Toe game.                          | [Piyush Verma](https://github.com/vrm-piyush) |
+| 36      | **[URLShortener](URLShortener/)**                             | Shortens URLs.                                     | [Piyush Verma](https://github.com/vrm-piyush) |
+| 37      | **[WeightConverter](WeightConverter/)**                       | Converts weights between different units.          | [Piyush Verma](https://github.com/vrm-piyush) |
 
 ## Contribution
 
