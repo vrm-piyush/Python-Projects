@@ -79,7 +79,7 @@ conda-verify==3.4.2
 conda_index @ file:///C:/b/abs_50towt3zan/croot/conda-index_1695311135992/work
 conda_package_streaming @ file:///C:/b/abs_6c28n38aaj/croot/conda-package-streaming_1690988019210/work
 confection==0.1.4
-constantly==15.1.0
+constantly==23.10.4
 contourpy @ file:///C:/b/abs_d5rpy288vc/croots/recipe/contourpy_1663827418189/work
 cookiecutter @ file:///opt/conda/conda-bld/cookiecutter_1649151442564/work
 cryptography @ file:///C:/b/abs_f4do8t8jfs/croot/cryptography_1694444424531/work
