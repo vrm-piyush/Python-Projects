@@ -380,7 +380,7 @@ pytoolconfig @ file:///C:/b/abs_18sf9z_iwl/croot/pytoolconfig_1676315065270/work
 pytrends==4.9.2
 pyttsx3==2.90
 pytube==15.0.0
-pytweening==1.0.7
+pytweening==1.2.0
 pytz @ file:///C:/b/abs_19q3ljkez4/croot/pytz_1695131651401/work
 pyviz-comms @ file:///C:/b/abs_6cq38vhwa5/croot/pyviz_comms_1685030740344/work
 PyWavelets @ file:///C:/b/abs_a8r4b1511a/croot/pywavelets_1670425185881/work
