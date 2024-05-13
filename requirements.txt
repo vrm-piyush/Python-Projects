@@ -536,4 +536,4 @@ zict @ file:///C:/b/abs_780gyydtbp/croot/zict_1695832899404/work
 zipp @ file:///C:/b/abs_b9jfdr908q/croot/zipp_1672387552360/work
 zope.deprecation==5.0
 zope.interface @ file:///C:/ci/zope.interface_1625036252485/work
-zstandard==0.19.0
+zstandard==0.22.0
