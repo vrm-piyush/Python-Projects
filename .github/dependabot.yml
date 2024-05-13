@@ -5,16 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "pip"
+  - package-ecosystem: "pip" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
-    ignore:
-      - directory: "/*"
-      - directory: "/bot_review"
-  - package-ecosystem: "pip"
-    directory: "/bot_review" # Location of package manifests in the bot_review branch
-    schedule:
-      interval: "weekly"
-    ignore:
-      - directory: "/*"
