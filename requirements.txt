@@ -493,7 +493,7 @@ trio-websocket==0.10.3
 ttkthemes==3.2.2
 Twisted @ file:///C:/b/abs_f1pc_rieoy/croot/twisted_1683796899561/work
 twisted-iocpsupport @ file:///C:/ci/twisted-iocpsupport_1646798932792/work
-typer==0.9.0
+typer==0.12.3
 typing_extensions @ file:///C:/b/abs_213vg2cd1l/croot/typing_extensions_1690297804941/work
 tzdata @ file:///croot/python-tzdata_1690578112552/work
 uc-micro-py @ file:///C:/Windows/TEMP/abs_ab_md7b2dy/croots/recipe/uc-micro-py_1659769410759/work
