@@ -100,26 +100,6 @@ Enter the number of the plot you want to see (1-9): 1
 
 ![output](image.png)
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/RainyDays.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd RainyDays
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python rainy_days.py
-   ```
-
 ## Features to be Added
 
 - **User Input:**
@@ -141,6 +121,6 @@ Enter the number of the plot you want to see (1-9): 1
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements, encounter any issues, or want to add new features, please open an [issue](https://github.com/vrm-piyush/RainyDays/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

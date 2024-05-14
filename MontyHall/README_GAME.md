@@ -82,26 +82,6 @@ Statistics: Wins - 1, Losses - 0
 Do you want to play again? (yes/no): yes
 ```
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/MontyHall.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd MontyHall
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python monty_hall_game.py
-   ```
-
 ## Features to be Added
 
 - **GUI Interface:**
@@ -146,6 +126,6 @@ Do you want to play again? (yes/no): yes
 
 ## Contribution Guidelines
 
-Contributions are encouraged! If you have ideas for improvements, encounter any issues, or want to add new features, please open an [issue](https://github.com/vrm-piyush/MontyHallGame/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

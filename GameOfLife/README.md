@@ -75,36 +75,6 @@ python game_of_life.py
   <source src="GameofLife.mp4" type="video/mp4">
 </video>
 
-## Installation
-
-1. **Ensure Dependencies are Installed:**
-
-   - Install the required libraries using:
-     ```bash
-     pip install pygame
-     ```
-
-2. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/GameOfLife.git
-   ```
-
-3. **Navigate to the Project Directory:**
-
-   ```bash
-   cd GameOfLife
-   ```
-
-4. **Run the Program:**
-
-   ```bash
-   python game_of_life.py
-   ```
-
-5. **Enjoy the Simulation:**
-   - Observe the evolution of the cellular automaton on the display window.
-
 ---
 
 ## Features to be Added
@@ -191,11 +161,11 @@ python game_of_life.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/GameOfLifeProgram/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ## License
 
-This Conway's Game of Life program is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This Conway's Game of Life program is licensed under the Apache License - see the [LICENSE](../LICENSE.md) file for details.
 
 ## Acknowledgments
 

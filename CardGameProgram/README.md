@@ -1,5 +1,7 @@
 # Card Game Program
 
+![card game](../assets/cardgame.png)
+
 ## Project Overview
 
 The Card Game Program is a Python application that simulates a card game involving players and a deck of cards. The program provides a range of features, including different player classes, game modes, and user interaction. It supports player-vs-player and player-vs-AI scenarios, allowing users to play rounds, save and load game states, and customize opponents and game modes.
@@ -122,26 +124,6 @@ War is over. Medium AI wins!
 Do you want to save the current game state? (y/n):
 ```
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/CardGameProgram.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd CardGameProgram
-   ```
-
-3. **Run the Script:**
-
-   ```bash
-   python card_game.py
-   ```
-
 ## Features to be Added
 
 - **User Interface (UI):**
@@ -169,6 +151,6 @@ Consider the complexity of each feature and choose those that align with the goa
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements, encounter any issues, or want to add new features, please open an [issue](https://github.com/vrm-piyush/CardGameProgram/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

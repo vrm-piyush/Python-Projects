@@ -54,26 +54,6 @@ python circular_fractal_tree.py
 # The program will save the fractal tree as an image file (fractal_tree.png) upon completion.
 ```
 
-## Installation
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/vrm-piyush/CircularFractalTree.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd CircularFractalTree
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python circular_fractal_tree.py
-   ```
-
 ## Features to be Added
 
 - **Randomized Colors:**
@@ -110,6 +90,6 @@ python circular_fractal_tree.py
 
 ## Contribution Guidelines
 
-Contributions to enhance the Circular Fractal Tree Program are welcome! If you have ideas or encounter any issues, please open an [issue](https://github.com/vrm-piyush/CircularFractalTree/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

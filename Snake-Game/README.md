@@ -80,26 +80,6 @@ python Main.py
 \
 ![Output](Graphics/image.png)
 
-## Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/snake-game.git
-   ```
-
-2. **Navigate to the project directory:**
-
-   ```bash
-   cd Snake-Game
-   ```
-
-3. **Run the game:**
-
-   ```bash
-   python Main.py
-   ```
-
 ## Features to be Added
 
 - **Improve Responsive Controls:**
@@ -144,6 +124,6 @@ python Main.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements, encounter any issues, or want to add new features, please open an [issue](https://github.com/vrm-piyush/Snake-Game/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

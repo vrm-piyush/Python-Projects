@@ -62,26 +62,6 @@ python music_player_gui.py
 \
 ![Music Player Output](image.png)
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/MusicPlayerGUIProgram.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd MusicPlayerGUIProgram
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python music_player_gui.py
-   ```
-
 ---
 ## Features to be Added
 
@@ -122,6 +102,6 @@ python music_player_gui.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/MusicPlayerGUIProgram/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---
