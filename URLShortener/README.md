@@ -90,26 +90,6 @@ Shortened URLs for User 'user1':
         Timestamp: 2024-03-03 00:24:24.105257
 ```
 
-## Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/URLShortener.git
-   ```
-
-2. **Navigate to the project directory:**
-
-   ```bash
-   cd URLShortener
-   ```
-
-3. **Run the program:**
-
-   ```bash
-   python url_shortener.py [long_url] [expiration_hours] [redirect_type] [username] [password] [category]
-   ```
-
 ## Features to be Added
 
 - **Link Analytics:**
@@ -134,4 +114,6 @@ Shortened URLs for User 'user1':
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/URLShortener/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
+
+---

@@ -79,26 +79,6 @@ python multiple_input_program.py
    	Program ended.
 ```
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/MultipleInputProgram.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd MultipleInputProgram
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python multiple_input_program.py
-   ```
-
 ## Features to be Added
 
 - **Input Timestamps:**
@@ -124,6 +104,6 @@ python multiple_input_program.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/MultipleInputProgram/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

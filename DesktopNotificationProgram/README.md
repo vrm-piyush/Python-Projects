@@ -61,26 +61,6 @@ python desktop_notification.py
 \
 ![Notification](image.png)
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/DesktopNotificationProgram.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd DesktopNotificationProgram
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python desktop_notification.py
-   ```
-
 ## Features to be Added
 
 - **Multiple Notification Styles:**
@@ -112,6 +92,6 @@ python desktop_notification.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/DesktopNotificationProgram/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

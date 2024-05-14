@@ -74,34 +74,6 @@ python barcode_qrcode_reader.py
 # A beep sound is generated on successful scanning (Windows only).
 ```
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/BarcodeQRCodeReader.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd BarcodeQRCodeReaderProgram
-   ```
-
-3. **Install Dependencies:**
-
-   Ensure that the necessary libraries are installed. You can use the following command:
-
-   ```bash
-   pip install opencv-python pyzbar pillow
-   ```
-
-4. **Run the Program:**
-
-   ```bash
-   python barcode_qrcode_reader.py
-   ```
-
 ## Features to be Added
 
 - **Code Filtering:**
@@ -123,6 +95,6 @@ python barcode_qrcode_reader.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements, encounter any issues, or want to add new features, please open an [issue](https://github.com/vrm-piyush/BarcodeQRCodeReader/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

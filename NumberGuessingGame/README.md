@@ -90,26 +90,6 @@ Average Number of Attempts: 1.00
 Do you want to play again? (yes/no): no
 ```
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/NumberGuessingGame.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd NumberGuessingGame
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python number_guessing_game.py
-   ```
-
 ## Features to be Added
 
 - **GUI:**
@@ -132,6 +112,6 @@ Do you want to play again? (yes/no): no
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements, encounter any issues, or want to add new features, please open an [issue](https://github.com/vrm-piyush/NumberGuessingGame/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

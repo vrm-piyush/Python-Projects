@@ -72,26 +72,6 @@ python roman_decimal_converter_gui.py
 \
 ![Roman Decimal Converter GUI](image.png)
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/RomanDecimalConverter.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd RomanDecimalConverterGUI
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python roman_decimal_converter_gui.py
-   ```
-
 ## Features to be Added
 
 - **Unit Tests:**
@@ -112,6 +92,5 @@ python roman_decimal_converter_gui.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/RomanDecimalConverterTerminal/issues) or submit a pull request.
-
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 ---

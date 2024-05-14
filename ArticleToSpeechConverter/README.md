@@ -1,6 +1,6 @@
 # Article to Speech Converter
 
-![Article to Speech](image-1.png)
+![Article to Speech](../assets/images/readme_images/article_to_speech.png)
 
 ## Project Overview
 
@@ -69,34 +69,7 @@ cd ArticleToSpeechConverter
 python article_to_speech_converter
 ```
 
-![Output](image.png)
-
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/ArticleToSpeechConverter.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd ArticleToSpeechConverter
-   ```
-
-3. **Install Dependencies:**
-   Ensure that the necessary libraries are installed. You can use the following command:
-
-   ```bash
-   pip install newspaper3k pyttsx3
-   ```
-
-4. **Run the Program:**
-
-   ```bash
-   python article_to_speech_converter.py
-   ```
+![Output](../assets/images/output_images/article_to_speech_output.png)
 
 ## Features to be Added
 
@@ -126,6 +99,6 @@ python article_to_speech_converter
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements, encounter any issues, or want to add new features, please open an [issue](https://github.com/vrm-piyush/ArticleToSpeechConverter/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---
