@@ -1,6 +1,6 @@
 # Barcode and QR Code Reader Program
 
-![QRcode Barcode](image-1.png)
+![QRcode Barcode](../assets/images/readme_images/barcode_qrcode_reader.png)
 
 ## Project Overview
 
@@ -66,7 +66,7 @@ python barcode_qrcode_reader.py
 ```
 
 \
-![output](image.png)
+![output](../assets/images/output_images/barcode_qrcode_output.png)
 
 ```python
 # The Barcode and QR Code Reader GUI will be displayed, allowing users to interactively scan and recognize barcodes and QR codes using the camera feed.
