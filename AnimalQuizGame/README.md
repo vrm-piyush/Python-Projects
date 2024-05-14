@@ -1,6 +1,6 @@
 # Animal Quiz Game Program
 
-![animal quiz](../assets/images/readme_images/animalquiz.png)
+![animal quiz](../assets/images/readme_images/animal_quiz.png)
 
 ## Project Overview
 

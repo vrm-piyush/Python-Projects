@@ -1,6 +1,6 @@
 # Clock App Program
 
-![Clock App](image-1.png)
+![Clock App](../assets/images/readme_images/clockapp.png)
 
 ## Project Overview
 
@@ -62,7 +62,7 @@ The Clock App Program is a versatile time management application with features l
     python clock_app.py
 ```
 
-![Output](image.png)
+![Output](../assets/images/output_images/clockapp.png)
 
 ## Features to be Added
 

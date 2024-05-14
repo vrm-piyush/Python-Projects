@@ -1,6 +1,6 @@
 # Monty Hall Game Program
 
-![Monty Hall Game](image.png)
+![Monty Hall Game](../assets/images/readme_images/montyhall.png)
 
 ## Project Overview
 

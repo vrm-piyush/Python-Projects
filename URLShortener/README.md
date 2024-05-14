@@ -1,6 +1,6 @@
 # URL Shortener Program
 
-![URL Shortner](image.png)
+![URL Shortner](../assets/images/readme_images/url_shortner.png)
 
 ## Project Overview
 

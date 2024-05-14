@@ -83,9 +83,9 @@ if __name__ == '__main__':
     title = "Hello from Python!"
     message = "This is a desktop notification created using Python."
 
-    # Provide the correct absolute paths to the icon and sound files.
-    icon_path = str(Path.cwd() / 'Icons' / 'icon.ico')
-    sound_path = str(Path.cwd() / 'Sounds' / 'sound.mp3')
+    # Path to the icon and sound files
+    icon_path = str('../assets/images/image/icon.ico')
+    sound_path = str('../assets/audio/notifiaction_sound.mp3')
 
     show_notification(
         title,
@@ -95,5 +95,5 @@ if __name__ == '__main__':
         duration=5,
         persistent=True,
         clickable=True,
-        url='https://www.python.org/'
+        url=''
     )

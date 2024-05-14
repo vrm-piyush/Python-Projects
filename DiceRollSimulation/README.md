@@ -1,6 +1,7 @@
 # Dice Roll Simulation Program
 
-![Dice ROll](image.png)
+![Dice ROll](../assets/images/readme_images/dice_roll.png)
+
 ## Project Overview
 
 The Dice Roll Simulation Program is a Python implementation that allows users to simulate rolling dice with various features. It supports both single-player and multiplayer modes, where players can roll different sets of dice. The program includes statistics, a histogram of rolled values, and probability calculations. Additionally, it provides an animated representation of dice rolling for an interactive experience.

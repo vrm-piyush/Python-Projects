@@ -1,6 +1,6 @@
 # Image Filtering Program
 
-![Image Filter](image-1.png)
+![Image Filter](../assets/images/readme_images/iamge_filter.png)
 
 ## Project Overview
 
@@ -89,7 +89,7 @@ cd ImageFiltering
 python image_filter_app.py
 ```
 
-![output](image.png)
+![output](../assets/images/output_images/image_filter_output.png)
 
 ## Feature to be Added
 
@@ -108,8 +108,7 @@ python image_filter_app.py
 - **Additional Filters:**
 
   - Expand the filter options by including more sophisticated or custom filters. You might explore filters used in image processing applications, such as edge detection filters, sharpening filters, or custom convolution filters.
-  
+
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
----
+## Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.

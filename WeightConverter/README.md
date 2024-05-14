@@ -1,6 +1,6 @@
 # Weight Converter GUI Program
 
-![Weight Converter](image-1.png)
+![Weight Converter](../assets/images/readme_images/weight_converter.png)
 
 ## Project Overview
 
@@ -80,7 +80,7 @@ cd WeightConverter
 python weight_converter.py
 ```
 
-![outpu](image.png)
+![outpu](../assets/images/output_images/weight_converter_output.png)
 
 ## Features to be Added
 

@@ -1,6 +1,6 @@
 # Alarm Clock Program
 
-![alarm clock](../assets/images/readme_images/alarmclock.png)
+![alarm clock](../assets/images/readme_images/alarm_clock.png)
 
 ## Project Overview
 
@@ -56,5 +56,4 @@ Wake Up!!
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
----
+## Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.

@@ -1,6 +1,6 @@
 # Email ID Parser
 
-![email parser](image.png)
+![email parser](../assets/images/readme_images/email_parser.png)
 
 ## Project Overview
 
@@ -54,26 +54,6 @@ Username: user
 No subdomain
 Main Domain: example.com
 ```
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/vrm-piyush/EmailParser.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd EmailParser
-   ```
-
-3. Run the program:
-
-   ```bash
-   python email_id_parser.py
-   ```
 
 ## Contribution Guidelines
 
