@@ -25,7 +25,7 @@ Please refer to `requirements.txt` file for dependencies.
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/vrm-piyush/Python-Projects.git
+   git clone https://github.com/vrm-piyush/Python-Projects
    ```
 
 2. **Navigate to the project directory**:

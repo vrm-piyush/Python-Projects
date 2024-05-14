@@ -115,26 +115,6 @@ Do you want to reset scores? (y/n): y
 Scores reset to zero. Starting a new game.
 ```
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/vrm-piyush/RockPaperScissorsGame.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd RockPaperScissorsGame
-   ```
-
-3. Run the program:
-
-   ```bash
-   python rock_paper_scissors_game.py
-   ```
-
 ## Features to be Added
 
 - **Improved User Interface:**
@@ -170,6 +150,6 @@ Scores reset to zero. Starting a new game.
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/RockPaperScissorsGame/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

@@ -55,26 +55,6 @@ python tic_tac_toe.py
 
 ![Output](image.png)
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/TicTacToeGame.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd TicTacToeGame
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python tic_tac_toe.py
-   ```
-
 ## Features to be Added
 
 - **Player Names:**
@@ -124,6 +104,6 @@ python tic_tac_toe.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements, encounter any issues, or want to add new features, please open an [issue](https://github.com/vrm-piyush/TicTacToeGame/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

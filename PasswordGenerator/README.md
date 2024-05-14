@@ -99,26 +99,6 @@ Enter the hashing algorithm (e.g., sha256): sha256
 Passwords saved to generated_passwords.txt
 ```
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/vrm-piyush/PasswordGenerator.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd PasswordGenerator
-   ```
-
-3. Run the program:
-
-   ```bash
-   python password_generator.py
-   ```
-
 ## Features to be Added
 
 - **Error Handling:**
@@ -142,6 +122,5 @@ Passwords saved to generated_passwords.txt
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/PasswordGenerator/issues) or submit a pull request.
-
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 ---

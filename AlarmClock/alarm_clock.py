@@ -79,7 +79,7 @@ if __name__ == '__main__':
             
             # Play the alarm sound.
             pygame.mixer.init()
-            pygame.mixer.music.load('have_a_nice_day-alarm.wav')
+            pygame.mixer.music.load('assets/audio/have_a_nice_day-alarm.wav')
             pygame.mixer.music.play()
             pygame.time.wait(18000)
             pygame.mixer.music.stop()

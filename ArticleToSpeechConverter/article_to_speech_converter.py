@@ -104,7 +104,7 @@ class ArticleToSpeechConverter(tk.Tk):
             engine.setProperty("volume", volume)
 
             # Create an 'audio' directory if it doesn't exist
-            audio_folder = "audio"
+            audio_folder = "../assets/audio"
             if not os.path.exists(audio_folder):
                 os.makedirs(audio_folder)
 

@@ -70,34 +70,6 @@ python calendar_app.py
 \
 ![Output 2](image-1.png)
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/CalendarApp.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd CalendarApp
-   ```
-
-3. **Install Dependencies:**
-
-   Ensure that the necessary libraries are installed. You can use the following command:
-
-   ```bash
-   pip install pillow
-   ```
-
-4. **Run the Program:**
-
-   ```bash
-   python calendar_app.py
-   ```
-
 ## Features to be Added
 
 - **Today Button:**
@@ -126,6 +98,5 @@ python calendar_app.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements, encounter any issues, or want to add new features, please open an [issue](https://github.com/vrm-piyush/CalendarApp/issues) or submit a pull request.
-
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 ---
