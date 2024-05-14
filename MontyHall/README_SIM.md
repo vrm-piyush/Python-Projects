@@ -1,6 +1,6 @@
 # Monty Hall Game Simulation Program
 
-![Monty Hall Sim](image-1.png)
+![Monty Hall Sim](../assets/images/readme_images/montyhall_simu.png)
 
 ## Project Overview
 

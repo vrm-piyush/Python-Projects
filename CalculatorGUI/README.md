@@ -1,6 +1,6 @@
 # Calculator GUI Program
 
-![Calculator](image-1.png)
+![Calculator](../assets/images/readme_images/calculator.png)
 
 ## Project Overview
 
@@ -60,7 +60,7 @@ cd CalculatorGUI
 python calculator.py
 ```
 
-![Calculator](image.png)
+![Calculator](../assets/images/output_images/calculator_output.png)
 
 ## Features to be Added
 

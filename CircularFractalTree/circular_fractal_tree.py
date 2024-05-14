@@ -66,7 +66,7 @@ def play_background_music():
     - None
     """
     pygame.mixer.init()
-    pygame.mixer.music.load("music.mp3")  # Replace with your music file
+    pygame.mixer.music.load("../assets/audio/fractal_tree_bgmusic.mp3")  # Replace with your music file
     pygame.mixer.music.set_volume(0.5)
     pygame.mixer.music.play(loops=-1)  # -1 for infinite loop
 

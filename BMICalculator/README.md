@@ -1,6 +1,6 @@
-# Body Mass Index (BMI) Calculator 
+# Body Mass Index (BMI) Calculator
 
-![BMI Calculator](image.png)
+![BMI Calculator](../assets/images/readme_images/bmi_calculator.png)
 
 ## Project Overview
 
@@ -103,7 +103,7 @@ You are categorized as Normal Weight
 
 - **Accessibility Features:**
   - Enhance accessibility by implementing features like voice commands or screen reader compatibility.
-  
+
 ## Contribution Guidelines
 
 Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.

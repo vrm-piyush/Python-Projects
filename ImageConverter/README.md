@@ -1,6 +1,6 @@
 # Image Converter GUI Program
 
-![image converter](image-1.png)
+![image converter](../assets/images/readme_images/image_converter.png)
 
 ## Project Overview
 
@@ -73,7 +73,7 @@ cd ImageConverter
 python image_converter.py
 ```
 
-![Output](image.png)
+![Output](../assets/images/output_images/image_converter_output.png)
 
 ## Features to be Added
 

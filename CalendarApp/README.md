@@ -1,6 +1,6 @@
 # Calendar App with GUI in Python
 
-![Calendar App](image-2.png)
+![Calendar App](../assets/images/readme_images/calendar_app.png)
 
 ## Project Overview
 
@@ -65,10 +65,10 @@ cd CalendarApp
 python calendar_app.py
 ```
 
-![Output](image.png)
+![Output](../assets/images/output_images/calendar_output1.png)
 
 \
-![Output 2](image-1.png)
+![Output 2](../assets/images/output_images/calendar_output2.png)
 
 ## Features to be Added
 
@@ -98,5 +98,4 @@ python calendar_app.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
----
+## Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.

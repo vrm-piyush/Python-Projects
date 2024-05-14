@@ -1,6 +1,6 @@
 # Desktop Notification Program
 
-![Desktop Notification](image-1.png)
+![Desktop Notification](../assets/images/readme_images/desktop_notification.png)
 
 ## Project Overview
 
@@ -58,8 +58,9 @@ The Desktop Notification Program is a Python application that utilizes the Plyer
 cd DesktopNotificationProgram
 python desktop_notification.py
 ```
+
 \
-![Notification](image.png)
+![Notification](../assets/images/output_images/desktop_notification_output.png)
 
 ## Features to be Added
 

@@ -1,6 +1,6 @@
 # Conway's Game of Life Program
 
-![Game of Life](image.png)
+![Game of Life](../assets/images/readme_images/game_of_life.png)
 
 ## Project Overview
 
@@ -71,8 +71,7 @@ cd GameOfLife
 python game_of_life.py
 ```
 
-<video width="320" height="240" controls>
-  <source src="GameofLife.mp4" type="video/mp4">
+<video width="400" height="400" controls src="../assets/video/GameofLife.mp4" type="video/mp4">
 </video>
 
 ---

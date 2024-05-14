@@ -1,6 +1,6 @@
 # Image to Pencil Sketch Program
 
-![Image to Sketch](image-1.png)
+![Image to Sketch](../assets/images/readme_images/image_to_pencil_sketch.png)
 
 ## Program Overview
 
@@ -49,7 +49,7 @@ python image_to_pencil_sketch.py
 ```
 
 \
-![output](image.png)
+![output](../assets/images/output_images/image_to_pencil_sketch_output.png)
 
 ## Features to be Added
 
@@ -72,8 +72,7 @@ python image_to_pencil_sketch.py
 - **Integration with Social Media:**
 
   - Allow users to share their pencil sketches directly on social media platforms.
-  
+
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
----
+## Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.

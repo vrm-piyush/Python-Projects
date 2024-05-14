@@ -5,7 +5,7 @@
 
 > Welcome to the Python Projects Repository! This repository contains a collection of Python projects covering various domains and functionalities.
 
-## Description
+## ![aim](assets/images/image/aim.png) Description
 
 > This repository is a compilation of Python projects developed for learning, practice, and exploration of different programming concepts. Each project is designed to demonstrate specific features of Python programming language and its libraries.
 
@@ -45,7 +45,7 @@ Please refer to `requirements.txt` file for dependencies.
 
    Replace `(projectname.py)` with the actual Python file name.
 
-## Projects
+## ![project](assets/images/image/project.png) Projects
 
 | Sl. No. | Project                                                       | Description                                        | Author                                        |
 | ------- | ------------------------------------------------------------- | -------------------------------------------------- | --------------------------------------------- |
@@ -91,7 +91,7 @@ Please refer to `requirements.txt` file for dependencies.
 
 Contributions are welcome! If you have any suggestions, improvements, or new project ideas, feel free to open an issue or create a pull request. Please make sure to follow the [contribution guidelines](CONTRIBUTING.md).
 
-### ![image](assets\project.png) Our Contributors
+### ![contributors](assets/images/image/contributing.png) Our Contributors
 
 <a href="https://github.com/vrm-piyush/python-projects/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=vrm-piyush/python-projects" />
