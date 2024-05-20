@@ -172,7 +172,7 @@ incremental @ file:///tmp/build/80754af9/incremental_1636629750599/work
 inflection==0.5.1
 iniconfig @ file:///home/linux1/recipes/ci/iniconfig_1610983019677/work
 instafilter==0.3.2
-instaloader==4.10.3
+instaloader==4.11
 intake @ file:///C:/b/abs_d2evhnuef4/croot/intake_1678787609774/work
 intervaltree @ file:///Users/ktietz/demo/mc3/conda-bld/intervaltree_1630511889664/work
 ipykernel @ file:///C:/b/abs_07rkft_vaz/croot/ipykernel_1691121700587/work
