@@ -488,7 +488,7 @@ tqdm @ file:///C:/b/abs_f76j9hg7pv/croot/tqdm_1679561871187/work
 traitlets @ file:///C:/b/abs_e5m_xjjl94/croot/traitlets_1671143896266/work
 transformers @ file:///C:/b/abs_375hgbdwge/croot/transformers_1693308365188/work
 translationstring==1.4
-trio==0.22.2
+trio==0.25.1
 trio-websocket==0.10.3
 ttkthemes==3.2.2
 Twisted @ file:///C:/b/abs_f1pc_rieoy/croot/twisted_1683796899561/work
