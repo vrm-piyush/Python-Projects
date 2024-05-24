@@ -343,7 +343,7 @@ pylint-venv @ file:///C:/b/abs_bf0lepsbij/croot/pylint-venv_1673990138593/work
 pyls-spyder==0.4.0
 PyMsgBox==1.0.9
 PyNaCl @ file:///C:/Windows/Temp/abs_d5c3ajcm87/croots/recipe/pynacl_1659620667490/work
-pynput==1.7.6
+pynput==1.7.7
 pyodbc @ file:///C:/b/abs_75yeqoz5wj/croot/pyodbc_1696937020956/work
 pyOpenSSL @ file:///C:/b/abs_08f38zyck4/croot/pyopenssl_1690225407403/work
 pyparsing @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_7f_7lba6rl/croots/recipe/pyparsing_1661452540662/work
