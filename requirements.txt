@@ -318,7 +318,7 @@ py @ file:///opt/conda/conda-bld/py_1644396412707/work
 py-cpuinfo @ file:///C:/b/abs_9ej7u6shci/croot/py-cpuinfo_1698068121579/work
 pyarrow==14.0.1
 pyasn1 @ file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work
-pyasn1-modules==0.2.8
+pyasn1-modules==0.4.0
 PyAutoGUI==0.9.54
 pycares==4.4.0
 pycodestyle @ file:///C:/b/abs_d77nxvklcq/croot/pycodestyle_1674267231034/work
