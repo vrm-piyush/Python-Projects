@@ -357,7 +357,7 @@ PyQt5==5.15.7
 PyQt5-sip @ file:///C:/Windows/Temp/abs_d7gmd2jg8i/croots/recipe/pyqt-split_1659273064801/work/pyqt_sip
 PyQtWebEngine==5.15.4
 pyramid==2.0.2
-pyramid-jinja2==2.10
+pyramid-jinja2==2.10.1
 PyRect==0.2.0
 pyrsistent @ file:///C:/ci/pyrsistent_1636093225342/work
 pyscreenshot==3.1
