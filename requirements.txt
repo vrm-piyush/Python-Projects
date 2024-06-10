@@ -91,7 +91,7 @@ Cython @ file:///C:/b/abs_0438epndxm/croots/recipe/cython_1663692771227/work
 cytoolz @ file:///C:/b/abs_61m9vzb4qh/croot/cytoolz_1667465938275/work
 daal4py==2023.1.1
 darr==0.5.5
-dash==2.15.0
+dash==2.17.0
 dash-core-components==2.0.0
 dash-html-components==2.0.0
 dash-table==5.0.0
@@ -156,7 +156,7 @@ html5lib==1.1
 httpcore==1.0.2
 httpx==0.25.2
 huggingface-hub @ file:///C:/b/abs_4ctezi_86v/croot/huggingface_hub_1696885915256/work
-hupper==1.12
+hupper==1.12.1
 hvplot @ file:///C:/b/abs_80mbzmdai2/croot/hvplot_1697559940289/work
 hyperlink @ file:///tmp/build/80754af9/hyperlink_1610130746837/work
 idna @ file:///C:/b/abs_bdhbebrioa/croot/idna_1666125572046/work
@@ -172,7 +172,7 @@ incremental @ file:///tmp/build/80754af9/incremental_1636629750599/work
 inflection==0.5.1
 iniconfig @ file:///home/linux1/recipes/ci/iniconfig_1610983019677/work
 instafilter==0.3.2
-instaloader==4.10.3
+instaloader==4.11
 intake @ file:///C:/b/abs_d2evhnuef4/croot/intake_1678787609774/work
 intervaltree @ file:///Users/ktietz/demo/mc3/conda-bld/intervaltree_1630511889664/work
 ipykernel @ file:///C:/b/abs_07rkft_vaz/croot/ipykernel_1691121700587/work
@@ -182,7 +182,7 @@ ipywidgets @ file:///C:/b/abs_5awapknmz_/croot/ipywidgets_1679394824767/work
 isort @ file:///tmp/build/80754af9/isort_1628603791788/work
 itemadapter @ file:///tmp/build/80754af9/itemadapter_1626442940632/work
 itemloaders @ file:///opt/conda/conda-bld/itemloaders_1646805235997/work
-itsdangerous==2.1.2
+itsdangerous==2.2.0
 jaraco.classes @ file:///tmp/build/80754af9/jaraco.classes_1620983179379/work
 jdcal @ file:///Users/ktietz/demo/mc3/conda-bld/jdcal_1630584345063/work
 jedi @ file:///C:/ci/jedi_1644315428289/work
@@ -194,7 +194,7 @@ jmespath @ file:///Users/ktietz/demo/mc3/conda-bld/jmespath_1630583964805/work
 joblib @ file:///C:/b/abs_1anqjntpan/croot/joblib_1685113317150/work
 json5 @ file:///tmp/build/80754af9/json5_1624432770122/work
 jsonpatch @ file:///tmp/build/80754af9/jsonpatch_1615747632069/work
-jsonpointer==2.1
+jsonpointer==2.4
 jsonschema @ file:///C:/b/abs_6ccs97j_l8/croot/jsonschema_1676558690963/work
 jupyter @ file:///C:/Windows/TEMP/abs_56xfdi__li/croots/recipe/jupyter_1659349053177/work
 jupyter-console @ file:///C:/b/abs_82xaa6i2y4/croot/jupyter_console_1680000189372/work
@@ -276,7 +276,7 @@ opencv-python==4.9.0.80
 openpyxl==3.0.10
 outcome==1.2.0
 packaging @ file:///C:/b/abs_28t5mcoltc/croot/packaging_1693575224052/work
-pandas==2.2.0
+pandas==2.2.2
 pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
 panel @ file:///C:/b/abs_a4rd7zrkc6/croot/panel_1695145945642/work
 param @ file:///C:/b/abs_f5xzp6ism6/croot/param_1684915326009/work
@@ -318,7 +318,7 @@ py @ file:///opt/conda/conda-bld/py_1644396412707/work
 py-cpuinfo @ file:///C:/b/abs_9ej7u6shci/croot/py-cpuinfo_1698068121579/work
 pyarrow==14.0.1
 pyasn1 @ file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work
-pyasn1-modules==0.2.8
+pyasn1-modules==0.4.0
 PyAutoGUI==0.9.54
 pycares==4.4.0
 pycodestyle @ file:///C:/b/abs_d77nxvklcq/croot/pycodestyle_1674267231034/work
@@ -327,7 +327,7 @@ pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 pyct @ file:///C:/b/abs_92z17k7ig2/croot/pyct_1675450330889/work
 pycurl==7.45.2
 pydantic @ file:///C:/b/abs_9byjrk31gl/croot/pydantic_1695798904828/work
-PyDispatcher==2.0.5
+PyDispatcher==2.0.7
 pydocstyle @ file:///C:/b/abs_6dz687_5i3/croot/pydocstyle_1675221688656/work
 pydub==0.25.1
 pyerfa @ file:///C:/ci/pyerfa_1621560974055/work
@@ -343,7 +343,7 @@ pylint-venv @ file:///C:/b/abs_bf0lepsbij/croot/pylint-venv_1673990138593/work
 pyls-spyder==0.4.0
 PyMsgBox==1.0.9
 PyNaCl @ file:///C:/Windows/Temp/abs_d5c3ajcm87/croots/recipe/pynacl_1659620667490/work
-pynput==1.7.6
+pynput==1.7.7
 pyodbc @ file:///C:/b/abs_75yeqoz5wj/croot/pyodbc_1696937020956/work
 pyOpenSSL @ file:///C:/b/abs_08f38zyck4/croot/pyopenssl_1690225407403/work
 pyparsing @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_7f_7lba6rl/croots/recipe/pyparsing_1661452540662/work
@@ -370,7 +370,7 @@ python-docx==1.1.0
 python-dotenv @ file:///C:/b/abs_edyrwjya7k/croot/python-dotenv_1669132572913/work
 python-json-logger @ file:///C:/b/abs_cblnsm6puj/croot/python-json-logger_1683824130469/work
 python-lsp-black @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_dddk9lhpp1/croots/recipe/python-lsp-black_1661852041405/work
-python-lsp-jsonrpc==1.0.0
+python-lsp-jsonrpc==1.1.2
 python-lsp-server @ file:///C:/b/abs_catecj7fv1/croot/python-lsp-server_1681930405912/work
 python-slugify @ file:///tmp/build/80754af9/python-slugify_1620405669636/work
 python-snappy @ file:///C:/b/abs_61b1fmzxcn/croot/python-snappy_1670943932513/work
@@ -416,7 +416,7 @@ schedule==1.2.1
 scikit-image @ file:///C:/b/abs_63r0vmx78u/croot/scikit-image_1669241746873/work
 scikit-learn @ file:///C:/b/abs_55olq_4gzc/croot/scikit-learn_1690978955123/work
 scikit-learn-intelex==20230426.122314
-scipy==1.11.3
+scipy==1.13.0
 Scrapy @ file:///C:/b/abs_9fn69i_d86/croot/scrapy_1677738199744/work
 seaborn==0.13.2
 selenium==4.10.0
@@ -488,7 +488,7 @@ tqdm @ file:///C:/b/abs_f76j9hg7pv/croot/tqdm_1679561871187/work
 traitlets @ file:///C:/b/abs_e5m_xjjl94/croot/traitlets_1671143896266/work
 transformers @ file:///C:/b/abs_375hgbdwge/croot/transformers_1693308365188/work
 translationstring==1.4
-trio==0.22.2
+trio==0.25.1
 trio-websocket==0.10.3
 ttkthemes==3.2.2
 Twisted @ file:///C:/b/abs_f1pc_rieoy/croot/twisted_1683796899561/work
@@ -500,7 +500,7 @@ uc-micro-py @ file:///C:/Windows/TEMP/abs_ab_md7b2dy/croots/recipe/uc-micro-py_1
 ujson @ file:///C:/ci/ujson_1657525944442/work
 Unidecode @ file:///tmp/build/80754af9/unidecode_1614712377438/work
 urllib3 @ file:///C:/b/abs_9cmlsrm3ys/croot/urllib3_1698257595508/work
-validators==0.22.0
+validators==0.28.3
 venusian==3.1.0
 virtualenv==20.25.1
 w3lib @ file:///Users/ktietz/demo/mc3/conda-bld/w3lib_1629359764703/work
@@ -521,7 +521,7 @@ win-unicode-console==0.5
 wincertstore==0.2
 wrapt @ file:///C:/Windows/Temp/abs_7c3dd407-1390-477a-b542-fd15df6a24085_diwiza/croots/recipe/wrapt_1657814452175/work
 wsproto==1.2.0
-WTForms==3.0.1
+WTForms==3.1.2
 xarray @ file:///C:/b/abs_5bkjiynp4e/croot/xarray_1689041498548/work
 xlrd @ file:///tmp/build/80754af9/xlrd_1608072521494/work
 XlsxWriter @ file:///opt/conda/conda-bld/xlsxwriter_1649073856329/work
