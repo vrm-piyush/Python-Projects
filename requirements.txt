@@ -500,7 +500,7 @@ uc-micro-py @ file:///C:/Windows/TEMP/abs_ab_md7b2dy/croots/recipe/uc-micro-py_1
 ujson @ file:///C:/ci/ujson_1657525944442/work
 Unidecode @ file:///tmp/build/80754af9/unidecode_1614712377438/work
 urllib3 @ file:///C:/b/abs_9cmlsrm3ys/croot/urllib3_1698257595508/work
-validators==0.22.0
+validators==0.28.3
 venusian==3.1.0
 virtualenv==20.25.1
 w3lib @ file:///Users/ktietz/demo/mc3/conda-bld/w3lib_1629359764703/work
