@@ -507,7 +507,7 @@ w3lib @ file:///Users/ktietz/demo/mc3/conda-bld/w3lib_1629359764703/work
 wasabi==1.1.2
 watchdog @ file:///C:/ci/watchdog_1638367441841/work
 wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
-weasel==0.3.4
+weasel==0.4.1
 webencodings==0.5.1
 WebOb==1.8.7
 websocket-client @ file:///C:/ci/websocket-client_1614804375980/work
