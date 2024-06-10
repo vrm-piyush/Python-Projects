@@ -194,7 +194,7 @@ jmespath @ file:///Users/ktietz/demo/mc3/conda-bld/jmespath_1630583964805/work
 joblib @ file:///C:/b/abs_1anqjntpan/croot/joblib_1685113317150/work
 json5 @ file:///tmp/build/80754af9/json5_1624432770122/work
 jsonpatch @ file:///tmp/build/80754af9/jsonpatch_1615747632069/work
-jsonpointer==2.1
+jsonpointer==2.4
 jsonschema @ file:///C:/b/abs_6ccs97j_l8/croot/jsonschema_1676558690963/work
 jupyter @ file:///C:/Windows/TEMP/abs_56xfdi__li/croots/recipe/jupyter_1659349053177/work
 jupyter-console @ file:///C:/b/abs_82xaa6i2y4/croot/jupyter_console_1680000189372/work
