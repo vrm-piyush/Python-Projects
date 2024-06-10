@@ -182,7 +182,7 @@ ipywidgets @ file:///C:/b/abs_5awapknmz_/croot/ipywidgets_1679394824767/work
 isort @ file:///tmp/build/80754af9/isort_1628603791788/work
 itemadapter @ file:///tmp/build/80754af9/itemadapter_1626442940632/work
 itemloaders @ file:///opt/conda/conda-bld/itemloaders_1646805235997/work
-itsdangerous==2.1.2
+itsdangerous==2.2.0
 jaraco.classes @ file:///tmp/build/80754af9/jaraco.classes_1620983179379/work
 jdcal @ file:///Users/ktietz/demo/mc3/conda-bld/jdcal_1630584345063/work
 jedi @ file:///C:/ci/jedi_1644315428289/work
