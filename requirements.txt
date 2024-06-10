@@ -327,7 +327,7 @@ pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 pyct @ file:///C:/b/abs_92z17k7ig2/croot/pyct_1675450330889/work
 pycurl==7.45.2
 pydantic @ file:///C:/b/abs_9byjrk31gl/croot/pydantic_1695798904828/work
-PyDispatcher==2.0.5
+PyDispatcher==2.0.7
 pydocstyle @ file:///C:/b/abs_6dz687_5i3/croot/pydocstyle_1675221688656/work
 pydub==0.25.1
 pyerfa @ file:///C:/ci/pyerfa_1621560974055/work
