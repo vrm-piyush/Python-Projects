@@ -1,6 +1,6 @@
 # Image to Pencil Sketch Program
 
-![Image to Sketch](image-1.png)
+![Image to Sketch](../assets/images/readme_images/image_to_pencil_sketch.png)
 
 ## Program Overview
 
@@ -49,27 +49,7 @@ python image_to_pencil_sketch.py
 ```
 
 \
-![output](image.png)
-
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/ImageToPencilSketch.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd ImageToPencilSketch
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python image_to_pencil_sketch.py
-   ```
+![output](../assets/images/output_images/image_to_pencil_sketch_output.png)
 
 ## Features to be Added
 
@@ -95,6 +75,4 @@ python image_to_pencil_sketch.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements, encounter any issues, or want to add new features, please open an [issue](https://github.com/vrm-piyush/ImageToPencilSketch/issues) or submit a pull request.
-
----
+## Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.

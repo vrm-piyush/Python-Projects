@@ -1,6 +1,7 @@
 # Dice Roll Simulation Program
 
-![Dice ROll](image.png)
+![Dice ROll](../assets/images/readme_images/dice_roll.png)
+
 ## Project Overview
 
 The Dice Roll Simulation Program is a Python implementation that allows users to simulate rolling dice with various features. It supports both single-player and multiplayer modes, where players can roll different sets of dice. The program includes statistics, a histogram of rolled values, and probability calculations. Additionally, it provides an animated representation of dice rolling for an interactive experience.
@@ -115,26 +116,6 @@ Value 6: 10.00%
 Do you want to animate the dice rolls for this round? (yes/y or no/n): yes
 ```
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/vrm-piyush/DiceRollSimulation.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd DiceRollSimulation
-   ```
-
-3. Run the program:
-
-   ```bash
-   python dice_roll_simulation.py
-   ```
-
 ## Features to be Added
 
 - **Interactive GUI:**
@@ -170,6 +151,6 @@ Do you want to animate the dice rolls for this round? (yes/y or no/n): yes
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/DiceRollSimulation/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

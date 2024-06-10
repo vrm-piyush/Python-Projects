@@ -40,7 +40,7 @@ def play_monty(prize_door: int, selected_door: int, difficulty: str) -> int:
     pygame.mixer.init()
 
     # Load the sound effect for revealing a goat
-    goat_sound = pygame.mixer.Sound("goat_sound.wav")
+    goat_sound = pygame.mixer.Sound("../assets/audio/goat_sound_montyhall.wav")
 
     # Monty Hall reveals a door with a goat that isn't the selected door or the prize door
     doors_to_open = [door for door in range(3) if door != selected_door and door != prize_door]

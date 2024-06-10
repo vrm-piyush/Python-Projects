@@ -104,26 +104,6 @@ Choose the output format ('png', 'eps'): png
 QR code generated and saved in 'QRCodes' folder as hello_world.png
 ```
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/vrm-piyush/QRCodeGenerator.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd QRCodeGenerator
-   ```
-
-3. Run the program:
-
-   ```bash
-   python qr_code_generator.py
-   ```
-
 ## Features to be Added
 
 - **Custom Colors:**
@@ -152,6 +132,6 @@ QR code generated and saved in 'QRCodes' folder as hello_world.png
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/QRCodeGenerator/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

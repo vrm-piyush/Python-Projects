@@ -1,6 +1,6 @@
 # Monty Hall Game Simulation Program
 
-![Monty Hall Sim](image-1.png)
+![Monty Hall Sim](../assets/images/readme_images/montyhall_simu.png)
 
 ## Project Overview
 
@@ -17,7 +17,7 @@ The Monty Hall Game Simulation Program is a Python script that simulates the fam
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/vrm-piyush/MontyHall.git
+   git clone https://github.com/vrm-piyush/Python-Projects/blob/main/MontyHall/monty_hall_simulation.py
    ```
 
 2. **Navigate to the Project Directory:**
@@ -45,6 +45,6 @@ The program runs a specified number of trials (default: 1,000,000) of the Monty 
 
 ## Contribution Guidelines
 
-Contributions to improve the Monty Hall Game Simulation are welcome! If you have ideas, suggestions, or encounter any issues, please open an [issue](https://github.com/vrm-piyush/MontyHallGame/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

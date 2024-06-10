@@ -1,6 +1,6 @@
 # Desktop Notification Program
 
-![Desktop Notification](image-1.png)
+![Desktop Notification](../assets/images/readme_images/desktop_notification.png)
 
 ## Project Overview
 
@@ -58,28 +58,9 @@ The Desktop Notification Program is a Python application that utilizes the Plyer
 cd DesktopNotificationProgram
 python desktop_notification.py
 ```
+
 \
-![Notification](image.png)
-
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/DesktopNotificationProgram.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd DesktopNotificationProgram
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python desktop_notification.py
-   ```
+![Notification](../assets/images/output_images/desktop_notification_output.png)
 
 ## Features to be Added
 
@@ -112,6 +93,6 @@ python desktop_notification.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/DesktopNotificationProgram/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

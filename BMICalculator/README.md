@@ -1,6 +1,6 @@
-# Body Mass Index (BMI) Calculator 
+# Body Mass Index (BMI) Calculator
 
-![BMI Calculator](image.png)
+![BMI Calculator](../assets/images/readme_images/bmi_calculator.png)
 
 ## Project Overview
 
@@ -71,26 +71,6 @@ Your BMI is 22.857
 You are categorized as Normal Weight
 ```
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/BMICalculator.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd BMICalculator
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python bmi_calculator.py
-   ```
-
 ## Features to be Added
 
 - **Additional BMI Categories:**
@@ -126,6 +106,6 @@ You are categorized as Normal Weight
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/BMICalculator/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

@@ -75,26 +75,6 @@ cd PhoneCameraProgram
 python phone_camera_program.py
 ```
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/PhoneCameraProgram.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd PhoneCameraProgram
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python phone_camera_program.py
-   ```
-
 ## Features to be Added
 
 - **Object Detection:**
@@ -179,6 +159,5 @@ python phone_camera_program.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/DesktopNotificationProgram/issues) or submit a pull request.
-
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 ---

@@ -1,6 +1,6 @@
 # Weight Converter GUI Program
 
-![Weight Converter](image-1.png)
+![Weight Converter](../assets/images/readme_images/weight_converter.png)
 
 ## Project Overview
 
@@ -80,34 +80,7 @@ cd WeightConverter
 python weight_converter.py
 ```
 
-![outpu](image.png)
-
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/WeightConverter.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd WeightConverter
-   ```
-
-3. **Install Dependencies:**
-
-   ```bash
-   # Ensure that you have the Tkinter library installed
-   pip install tk
-   ```
-
-4. **Run the Program:**
-
-   ```bash
-   python weight_converter.py
-   ```
+![outpu](../assets/images/output_images/weight_converter_output.png)
 
 ## Features to be Added
 
@@ -121,6 +94,6 @@ python weight_converter.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/WeightConverter/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

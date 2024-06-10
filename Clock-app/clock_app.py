@@ -150,9 +150,9 @@ class ClockApp(App):
 
     def __init__(self, **kwargs):
         super(ClockApp, self).__init__(**kwargs)
-        self.audio_folder = 'audio'
-        self.image_folder = 'images'
-        self.click_sound = SoundLoader.load(os.path.join(self.audio_folder, 'click.wav'))
+        self.audio_folder = '../assets/audio'
+        self.image_folder = '../assets/images/image'
+        self.click_sound = SoundLoader.load(os.path.join(self.audio_folder, 'click_clockapp.wav'))
         self.alarm_sound = None
         self.alarm_hour = 0
         self.alarm_minute = 0
@@ -167,7 +167,7 @@ class ClockApp(App):
             self.alarm_sound.play()
 
     def play_timer_expired_sound(self):
-        timer_expired_sound = SoundLoader.load(os.path.join(self.audio_folder, 'timer_expired.wav'))
+        timer_expired_sound = SoundLoader.load(os.path.join(self.audio_folder, 'timer_expired_clockapp.wav'))
         if timer_expired_sound:
             timer_expired_sound.play()
 
@@ -225,7 +225,7 @@ class ClockApp(App):
             print(f'Setting alarm for {hour:02d}:{minute:02d}')
             self.alarm_hour = hour
             self.alarm_minute = minute
-            self.alarm_sound = SoundLoader.load(os.path.join(self.audio_folder, 'alarm.wav'))
+            self.alarm_sound = SoundLoader.load(os.path.join(self.audio_folder, 'alarm_clockapp.wav'))
             print(f"Alarm set: {self.alarm_hour:02d}:{self.alarm_minute:02d}")
         except Exception as e:
             print(f"Error setting alarm: {e}")
@@ -315,11 +315,20 @@ class ClockApp(App):
     def apply_color_scheme(self, dark_mode=False):
         colors = dark_mode_colors if dark_mode else light_mode_colors
         
-        Window.clearcolor = get_color_from_hex(colors['background'])
+        # Define the directory path where your font files are located
+        fonts_directory = os.path.abspath('../assets/fonts')
+
+        # Define the font file names
+        regular_font = 'Roboto-Thin.ttf' if dark_mode else 'Roboto-Regular.ttf'
+        bold_font = 'Roboto-Medium.ttf'
+
+        # Construct the full file paths
+        regular_font_path = os.path.join(fonts_directory, regular_font)
+        bold_font_path = os.path.join(fonts_directory, bold_font)
 
         LabelBase.register(name='Roboto',
-                        fn_regular='Roboto-Thin.ttf' if dark_mode else 'Roboto-Regular.ttf',
-                        fn_bold='Roboto-Medium.ttf')
+                        fn_regular=regular_font_path,
+                        fn_bold=bold_font_path)
 
         # Set text color for specific labels
         text_labels = ['time', 'stopwatch', 'lap_times']

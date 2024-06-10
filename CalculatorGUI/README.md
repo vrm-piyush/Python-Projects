@@ -1,6 +1,6 @@
 # Calculator GUI Program
 
-![Calculator](image-1.png)
+![Calculator](../assets/images/readme_images/calculator.png)
 
 ## Project Overview
 
@@ -60,27 +60,7 @@ cd CalculatorGUI
 python calculator.py
 ```
 
-![Calculator](image.png)
-
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/CalculatorGUI.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd CalculatorGUI
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python calculator.py
-   ```
+![Calculator](../assets/images/output_images/calculator_output.png)
 
 ## Features to be Added
 
@@ -146,6 +126,6 @@ python calculator.py
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements, encounter any issues, or want to add new features, please open an [issue](https://github.com/vrm-piyush/CalculatorGUI/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

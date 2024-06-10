@@ -1,6 +1,6 @@
 # Clock App Program
 
-![Clock App](image-1.png)
+![Clock App](../assets/images/readme_images/clockapp.png)
 
 ## Project Overview
 
@@ -62,27 +62,7 @@ The Clock App Program is a versatile time management application with features l
     python clock_app.py
 ```
 
-![Output](image.png)
-
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/Clock-app.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd Clock-app
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python clock_app.py
-   ```
+![Output](../assets/images/output_images/clockapp.png)
 
 ## Features to be Added
 
@@ -156,6 +136,6 @@ The Clock App Program is a versatile time management application with features l
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements, encounter any issues, or want to add new features, please open an [issue](https://github.com/vrm-piyush/Clock-app/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

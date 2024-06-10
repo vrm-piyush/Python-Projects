@@ -1,6 +1,6 @@
 # Circular Fractal Tree Program
 
-![Fractal Tree](image.png)
+![Fractal Tree](../assets/images/readme_images/fractal_tree.png)
 
 ## Project Overview
 
@@ -54,62 +54,48 @@ python circular_fractal_tree.py
 # The program will save the fractal tree as an image file (fractal_tree.png) upon completion.
 ```
 
-## Installation
+![output image](../assets/images/output_images/fractal_tree_output.png)
 
-1. **Clone the Repository**:
+## Output Video
 
-   ```bash
-   git clone https://github.com/vrm-piyush/CircularFractalTree.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd CircularFractalTree
-   ```
-
-3. **Run the Program:**
-
-   ```bash
-   python circular_fractal_tree.py
-   ```
+<video width="600" height="600" controls src="../assets/video/Fractal Tree.mp4" title="Circular Fractal Tree" type="video/mp4"></video>
 
 ## Features to be Added
 
 - **Randomized Colors:**
 
-   - Randomly select colors for each branch to create dynamic and diverse patterns.
+  - Randomly select colors for each branch to create dynamic and diverse patterns.
 
 - **Variable Branch Angles:**
 
-   - Allow user input for custom angles, providing flexibility in the tree's structure.
+  - Allow user input for custom angles, providing flexibility in the tree's structure.
 
 - **Customizable Tree Depth:**
 
-   - Enable users to specify the depth or number of recursive levels for a more intricate pattern.
+  - Enable users to specify the depth or number of recursive levels for a more intricate pattern.
 
 - **User Interaction:**
 
-   - Implement mouse or keyboard interactions for dynamic adjustments during runtime.
+  - Implement mouse or keyboard interactions for dynamic adjustments during runtime.
 
 - **Gradient Colors:**
 
-   - Create a gradient effect for branch colors, transitioning smoothly from one color to another.
+  - Create a gradient effect for branch colors, transitioning smoothly from one color to another.
 
 - **Spiral Patterns:**
 
-   - Experiment with modifying angles and lengths to create captivating spiral patterns.
+  - Experiment with modifying angles and lengths to create captivating spiral patterns.
 
 - **Seasonal Themes:**
 
-   - Adjust colors and patterns based on seasons for a visually appealing theme.
+  - Adjust colors and patterns based on seasons for a visually appealing theme.
 
 - **Customizable Trunk:**
 
-   - Allow users to customize the appearance of the trunk, such as its length, thickness, and color.
+  - Allow users to customize the appearance of the trunk, such as its length, thickness, and color.
 
 ## Contribution Guidelines
 
-Contributions to enhance the Circular Fractal Tree Program are welcome! If you have ideas or encounter any issues, please open an [issue](https://github.com/vrm-piyush/CircularFractalTree/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---

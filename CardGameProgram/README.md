@@ -1,5 +1,7 @@
 # Card Game Program
 
+![card game](../assets/images/readme_images/card_game.png)
+
 ## Project Overview
 
 The Card Game Program is a Python application that simulates a card game involving players and a deck of cards. The program provides a range of features, including different player classes, game modes, and user interaction. It supports player-vs-player and player-vs-AI scenarios, allowing users to play rounds, save and load game states, and customize opponents and game modes.
@@ -122,53 +124,33 @@ War is over. Medium AI wins!
 Do you want to save the current game state? (y/n):
 ```
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/vrm-piyush/CardGameProgram.git
-   ```
-
-2. **Navigate to the Project Directory:**
-
-   ```bash
-   cd CardGameProgram
-   ```
-
-3. **Run the Script:**
-
-   ```bash
-   python card_game.py
-   ```
-
 ## Features to be Added
 
 - **User Interface (UI):**
 
-   - Create a simple text-based UI to make interactions more user-friendly.
-   - Display the current state of the game, including the cards remaining in the deck.
+  - Create a simple text-based UI to make interactions more user-friendly.
+  - Display the current state of the game, including the cards remaining in the deck.
 
 - **Game Statistics:**
 
-   - Keep track of additional statistics, such as the average number of turns per round, the longest winning streak, or the most frequently drawn card.
+  - Keep track of additional statistics, such as the average number of turns per round, the longest winning streak, or the most frequently drawn card.
 
 - **Customizable Deck:**
 
-   - Allow users to customize the deck, choosing specific suits or excluding certain cards.
+  - Allow users to customize the deck, choosing specific suits or excluding certain cards.
 
 - **Sound Effects:**
 
-   - Add simple sound effects for actions like drawing cards, winning a round, or winning the game.
+  - Add simple sound effects for actions like drawing cards, winning a round, or winning the game.
 
 - **Animations:**
 
-   - If you're working with a graphical interface, consider adding simple animations for card movements or other interactions.
+  - If you're working with a graphical interface, consider adding simple animations for card movements or other interactions.
 
 Consider the complexity of each feature and choose those that align with the goals and scope of the card game program. Each feature can enhance usability and functionality, but their implementation complexity may vary.
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements, encounter any issues, or want to add new features, please open an [issue](https://github.com/vrm-piyush/CardGameProgram/issues) or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---
