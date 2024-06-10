@@ -276,7 +276,7 @@ opencv-python==4.9.0.80
 openpyxl==3.0.10
 outcome==1.2.0
 packaging @ file:///C:/b/abs_28t5mcoltc/croot/packaging_1693575224052/work
-pandas==2.2.0
+pandas==2.2.2
 pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
 panel @ file:///C:/b/abs_a4rd7zrkc6/croot/panel_1695145945642/work
 param @ file:///C:/b/abs_f5xzp6ism6/croot/param_1684915326009/work
