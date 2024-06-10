@@ -370,7 +370,7 @@ python-docx==1.1.0
 python-dotenv @ file:///C:/b/abs_edyrwjya7k/croot/python-dotenv_1669132572913/work
 python-json-logger @ file:///C:/b/abs_cblnsm6puj/croot/python-json-logger_1683824130469/work
 python-lsp-black @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_dddk9lhpp1/croots/recipe/python-lsp-black_1661852041405/work
-python-lsp-jsonrpc==1.0.0
+python-lsp-jsonrpc==1.1.2
 python-lsp-server @ file:///C:/b/abs_catecj7fv1/croot/python-lsp-server_1681930405912/work
 python-slugify @ file:///tmp/build/80754af9/python-slugify_1620405669636/work
 python-snappy @ file:///C:/b/abs_61b1fmzxcn/croot/python-snappy_1670943932513/work
