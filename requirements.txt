@@ -353,7 +353,7 @@ pypiwin32==223
 pypng==0.20220715.0
 pyproj==3.6.1
 PyQRCode==1.2.1
-PyQt5==5.15.7
+PyQt5==5.15.10
 PyQt5-sip @ file:///C:/Windows/Temp/abs_d7gmd2jg8i/croots/recipe/pyqt-split_1659273064801/work/pyqt_sip
 PyQtWebEngine==5.15.4
 pyramid==2.0.2
