@@ -412,7 +412,7 @@ ruamel.yaml.clib @ file:///C:/b/abs_aarblxbilo/croot/ruamel.yaml.clib_1666302270
 s3fs @ file:///C:/b/abs_adfhcfx438/croot/s3fs_1682551489845/work
 s3transfer @ file:///C:/ci/s3transfer_1654512518418/work
 safetensors @ file:///C:/b/abs_a8nnkwknpv/croot/safetensors_1692949064285/work
-schedule==1.2.1
+schedule==1.2.2
 scikit-image @ file:///C:/b/abs_63r0vmx78u/croot/scikit-image_1669241746873/work
 scikit-learn @ file:///C:/b/abs_55olq_4gzc/croot/scikit-learn_1690978955123/work
 scikit-learn-intelex==20230426.122314
