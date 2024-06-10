@@ -91,7 +91,7 @@ Cython @ file:///C:/b/abs_0438epndxm/croots/recipe/cython_1663692771227/work
 cytoolz @ file:///C:/b/abs_61m9vzb4qh/croot/cytoolz_1667465938275/work
 daal4py==2023.1.1
 darr==0.5.5
-dash==2.15.0
+dash==2.17.0
 dash-core-components==2.0.0
 dash-html-components==2.0.0
 dash-table==5.0.0
@@ -156,7 +156,7 @@ html5lib==1.1
 httpcore==1.0.2
 httpx==0.25.2
 huggingface-hub @ file:///C:/b/abs_4ctezi_86v/croot/huggingface_hub_1696885915256/work
-hupper==1.12
+hupper==1.12.1
 hvplot @ file:///C:/b/abs_80mbzmdai2/croot/hvplot_1697559940289/work
 hyperlink @ file:///tmp/build/80754af9/hyperlink_1610130746837/work
 idna @ file:///C:/b/abs_bdhbebrioa/croot/idna_1666125572046/work
@@ -182,7 +182,7 @@ ipywidgets @ file:///C:/b/abs_5awapknmz_/croot/ipywidgets_1679394824767/work
 isort @ file:///tmp/build/80754af9/isort_1628603791788/work
 itemadapter @ file:///tmp/build/80754af9/itemadapter_1626442940632/work
 itemloaders @ file:///opt/conda/conda-bld/itemloaders_1646805235997/work
-itsdangerous==2.1.2
+itsdangerous==2.2.0
 jaraco.classes @ file:///tmp/build/80754af9/jaraco.classes_1620983179379/work
 jdcal @ file:///Users/ktietz/demo/mc3/conda-bld/jdcal_1630584345063/work
 jedi @ file:///C:/ci/jedi_1644315428289/work
@@ -318,7 +318,7 @@ py @ file:///opt/conda/conda-bld/py_1644396412707/work
 py-cpuinfo @ file:///C:/b/abs_9ej7u6shci/croot/py-cpuinfo_1698068121579/work
 pyarrow==14.0.1
 pyasn1 @ file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work
-pyasn1-modules==0.2.8
+pyasn1-modules==0.4.0
 PyAutoGUI==0.9.54
 pycares==4.4.0
 pycodestyle @ file:///C:/b/abs_d77nxvklcq/croot/pycodestyle_1674267231034/work
