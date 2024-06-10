@@ -25,17 +25,15 @@ Once a vulnerability is confirmed, we will take appropriate action to address it
 
 We believe in responsible disclosure and will work with security researchers to address vulnerabilities in a coordinated manner. We encourage researchers to follow responsible disclosure practices and refrain from publicly disclosing vulnerabilities until they have been addressed by our team.
 
-<!---## Supported Versions
+## Supported Versions
 
 Use this section to inform users about which versions of your project are currently supported with security updates.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
---->
+| Version | Supported |
+| ------- | --------- |
+| 1.0.0   | ✔️        |
+| 1.0.1   | ✔️        |
+| 1.0.1a  | ✔️        |
 
 Thank you for helping us keep our project secure. Your efforts in identifying and reporting vulnerabilities are greatly appreciated.
 
