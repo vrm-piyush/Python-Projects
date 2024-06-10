@@ -438,7 +438,7 @@ sortedcontainers @ file:///tmp/build/80754af9/sortedcontainers_1623949099177/wor
 sound==0.1.0
 soundfile==0.12.1
 soupsieve @ file:///C:/b/abs_bbsvy9t4pl/croot/soupsieve_1696347611357/work
-spacy==3.7.2
+spacy==3.7.5
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 SpeechRecognition==3.10.1
