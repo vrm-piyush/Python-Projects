@@ -361,7 +361,7 @@ pyramid-jinja2==2.10
 PyRect==0.2.0
 pyrsistent @ file:///C:/ci/pyrsistent_1636093225342/work
 pyscreenshot==3.1
-PyScreeze==0.1.29
+PyScreeze==0.1.30
 PySocks @ file:///C:/ci/pysocks_1605307512533/work
 pytesseract==0.3.10
 pytest @ file:///C:/b/abs_48heoo_k8y/croot/pytest_1690475385915/work
