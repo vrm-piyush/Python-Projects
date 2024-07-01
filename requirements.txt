@@ -134,7 +134,7 @@ Flask-Bcrypt==1.0.1
 Flask-Login==0.6.2
 Flask-Mail==0.10.0
 Flask-SQLAlchemy==3.1.1
-Flask-WTF==1.1.1
+Flask-WTF==1.2.1
 folium==0.15.1
 fonttools==4.25.0
 frozenlist @ file:///C:/b/abs_2bb5uzghsi/croot/frozenlist_1670004511812/work
