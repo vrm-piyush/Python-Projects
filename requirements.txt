@@ -325,7 +325,7 @@ pycodestyle @ file:///C:/b/abs_d77nxvklcq/croot/pycodestyle_1674267231034/work
 pycosat @ file:///C:/b/abs_31zywn1be3/croot/pycosat_1696537126223/work
 pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 pyct @ file:///C:/b/abs_92z17k7ig2/croot/pyct_1675450330889/work
-pycurl==7.45.2
+pycurl==7.45.3
 pydantic @ file:///C:/b/abs_9byjrk31gl/croot/pydantic_1695798904828/work
 PyDispatcher==2.0.7
 pydocstyle @ file:///C:/b/abs_6dz687_5i3/croot/pydocstyle_1675221688656/work
