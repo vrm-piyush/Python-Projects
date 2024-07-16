@@ -127,7 +127,7 @@ fastjsonschema @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_ebruxzvd08/cro
 feedfinder2==0.0.4
 feedparser==6.0.11
 filelock==3.13.1
-fiona==1.9.5
+fiona==1.9.6
 flake8 @ file:///C:/b/abs_9f6_n1jlpc/croot/flake8_1674581816810/work
 Flask==2.3.3
 Flask-Bcrypt==1.0.1
