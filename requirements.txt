@@ -142,7 +142,7 @@ fsspec @ file:///C:/b/abs_f9arcwflp9/croot/fsspec_1682526006955/work
 future @ file:///C:/b/abs_3dcibf18zi/croot/future_1677599891380/work
 gensim @ file:///C:/b/abs_a5vat69tv8/croot/gensim_1674853640591/work
 geographiclib==2.0
-geopandas==0.14.3
+geopandas==1.0.1
 geopy==2.4.1
 glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
 googletransx==2.4.2
