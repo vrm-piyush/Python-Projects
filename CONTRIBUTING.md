@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to the Python Projects Repository! Your contributions help improve the quality and diversity of the projects in this repository. Whether you want to suggest an improvement, report a bug, or add a new project, your contributions are highly appreciated.
 
-## ![image](assets\contributing.png) How to Contribute
+## ![image](assets/images/image/contributing.png) How to Contribute
 
 To contribute to this repository, please follow these steps:
 

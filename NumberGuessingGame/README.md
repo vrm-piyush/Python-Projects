@@ -9,19 +9,24 @@ The Number Guessing Game Program is a Python application that implements a class
 ## Features
 
 - **Difficulty Levels:**
+
   - Implement different difficulty levels (easy, medium, hard) with a varying range of numbers.
 
 - **Game Modes:**
+
   - Single-player mode where a player guesses the number.
   - Multiplayer mode where players take turns guessing.
 
 - **Hints:**
+
   - Provide hints after each incorrect guess, such as "Too high" or "Too low."
 
 - **Score System:**
+
   - Introduce a scoring system based on the number of attempts. The fewer attempts, the higher the score.
 
 - **Time Limit:**
+
   - Add a time limit for each guess to increase the challenge.
 
 - **High Score Board:**
@@ -30,21 +35,27 @@ The Number Guessing Game Program is a Python application that implements a class
 ## How to Play
 
 1. **Run the Program:**
+
    - Execute the program to start the Number Guessing Game.
 
 2. **Choose Difficulty:**
+
    - Select the difficulty level (easy, medium, hard) for the game.
 
 3. **Choose Mode:**
+
    - Choose the game mode (single-player or multiplayer).
 
 4. **Guess the Number:**
+
    - Input your guess for the randomly generated number.
 
 5. **Hints and Results:**
+
    - Receive hints after each incorrect guess and find out the results at the end of the round.
 
 6. **High Score Board:**
+
    - Input your name to be added to the high score board based on your performance.
 
 7. **Play Again:**
@@ -93,18 +104,23 @@ Do you want to play again? (yes/no): no
 ## Features to be Added
 
 - **GUI:**
+
   - Create a graphical user interface using a library like Tkinter or Pygame for a more visually appealing game.
 
 - **Sound Effects:**
+
   - Include sound effects for correct and incorrect guesses.
 
 - **Customization:**
+
   - Allow users to customize game settings, such as background color, font, or difficulty.
 
 - **Statistics:**
+
   - Display statistics, such as average number of attempts, success rate, etc.
 
 - **Animations:**
+
   - Add animations for correct and incorrect guesses.
 
 - **Number Range Selection:**
@@ -112,6 +128,6 @@ Do you want to play again? (yes/no): no
 
 ## Contribution Guidelines
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Acronym/issues) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please open an [issue](https://github.com/vrm-piyush/Python-Projects/issues/new/choose) or refer to [contribution guidelines](../CONTRIBUTING.md) for more details.
 
 ---
