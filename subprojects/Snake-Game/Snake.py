@@ -19,7 +19,7 @@ Methods:
 
 """
 
-from Settings import CELL_SIZE, START_COL, START_LENGTH, START_ROW, logging, pygame
+from Settings import *
 from os import walk
 from os.path import join
 
@@ -133,20 +133,33 @@ class Snake:
     def update(self):
         logging.info("Updating Snake")
 
-        # Move the snake's body
-        if not self.has_eaten:
-            body_copy = self.body[:-1]
-            body_copy.insert(0, body_copy[0] + self.direction)
-            self.body = body_copy[:]
-        else:
-            body_copy = self.body[:]
-            body_copy.insert(0, body_copy[0] + self.direction)
-            self.body = body_copy[:]
-            self.has_eaten = False
+        if self.direction != pygame.Vector2(0, 0):                  # Ensure the snake only moves when there's a direction
+            # Move the snake's body
+            if not self.has_eaten:
+                body_copy = self.body[:-1]
+            else:
+                body_copy = self.body[:]
+                self.has_eaten = False
 
-        self.update_head()
-        self.update_tail()
-        self.update_body()
+            # Calulate the new head position with wrapping logic
+            new_head = self.body[0] + self.direction
+
+            # Wrap horizontally (left and right boundaries)
+            new_head.x %= COLS
+            
+            # Wrap vertically (top and bottom boundaries)
+            if new_head.y < 1.0:                                # If the new head goes above the playable area
+                new_head.y = ROWS                              # Wrap to the bottom of the screen
+            elif new_head.y >= ROWS:                            # If the new head goes below the playable area
+                new_head.y = 1                                  # Wrap to the top of the screen
+
+            # Insert the new head
+            body_copy.insert(0, new_head)
+            self.body = body_copy[:]
+
+            self.update_head()
+            self.update_tail()
+            self.update_body()
 
     def reset(self):
         logging.info("Resetting Snake")

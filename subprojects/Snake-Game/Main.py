@@ -337,7 +337,7 @@ class Main:
             self.game_over_screen()
         
         # Check for collision with the snake's body or game boundaries
-        if self.snake.body[0] in self.snake.body[1:] or not (0 <= self.snake.body[0].x < COLS and 1 <= self.snake.body[0].y < ROWS) or self.snake.body[0] in self.obstacles:
+        if self.snake.body[0] in self.snake.body[1:] or self.snake.body[0] in self.obstacles:
             self.game_active = False
             self.game_over_screen()
 
