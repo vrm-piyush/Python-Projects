@@ -81,6 +81,9 @@ python Main.py
 \
 ![Output](Graphics/image.png)
 
+<video width="400" height="400" controls src="Output video/Snake_Game_Output.mp4" type="video/mp4">
+</video>
+
 ## Features to be Added
 
 - **Improve Responsive Controls:**
