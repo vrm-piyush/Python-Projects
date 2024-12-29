@@ -45,6 +45,40 @@ START_COL = START_LENGTH + 2
 SHADOW_SIZE = pygame.Vector2(4,4)
 SHADOW_OPACITY = 50
 
+# Level progression data
+LEVELS_DATA = [
+    {
+        "obstacles": [], 
+        "speed": 100, 
+        'score_to_advance': 10, 
+        'level_obstacles': 0
+    },
+    {
+        "obstacles": [], 
+        "speed": 90, 
+        'score_to_advance': 20, 
+        'level_obstacles': 1
+    },
+    {
+        "obstacles": [], 
+        "speed": 80, 
+        'score_to_advance': 35, 
+        'level_obstacles': 2
+    },
+    {
+        "obstacles": [], 
+        "speed": 70, 
+        'score_to_advance': 50, 
+        'level_obstacles': 3
+    },
+    {
+        "obstacles": [], 
+        "speed": 60, 
+        'score_to_advance': 65, 
+        'level_obstacles': 4
+    },
+]
+
 # Paths to various game assets
 BACKGROUND_IMAGE_PATH = 'Graphics/background_image.png'
 SETTINGS_BACKGROUND_IMAGE_PATH = 'Graphics/settings_bg_image.png'

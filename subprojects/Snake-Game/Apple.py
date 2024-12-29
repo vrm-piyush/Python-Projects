@@ -26,14 +26,15 @@ class Apple:
         self.snake = snake
         self.obstacles = obstacles
 
+        # Timer attributes
+        self.timer_duration = 5000      # Time in milliseconds before the apple moves
+        self.timer_start = pygame.time.get_ticks()
+
         # Initialize the rectangle to be used for drawing the scaled apple
         self.scaled_rect = pygame.Rect(0, 0, CELL_SIZE, CELL_SIZE)
 
-        # Set the initial position for the Apple
-        self.set_pos()
-
+        # Load the apple image
         try:
-            # Try loading the apple image
             self.surf = pygame.image.load(join('Graphics', 'apple.png')).convert_alpha()
         except pygame.error as e:
             print(f"Error loading apple image: {e}")
@@ -41,6 +42,9 @@ class Apple:
             # In this case, we'll use a placeholder image for simplicity.
             self.surf = pygame.Surface((CELL_SIZE, CELL_SIZE))
             self.surf.fill((255, 0, 0))  # Red placeholder color
+
+        # Set the position of the Apple
+        self.set_pos()
 
         # Initialize the scaled surface for drawing with the initial position
         self.scaled_surf = self.surf.copy()
@@ -54,8 +58,17 @@ class Apple:
             if new_pos not in self.snake.body and new_pos not in self.obstacles:
                 self.pos = pygame.Vector2(new_pos)
                 self.scaled_rect.topleft = (int(self.pos.x * CELL_SIZE), int(self.pos.y * CELL_SIZE))
+                self.timer_start = pygame.time.get_ticks()
                 return
+            
+    def update(self):
+        logging.info("Updating Apple")
 
+        # Check if the timer has expired
+        current_time = pygame.time.get_ticks()
+        if current_time - self.timer_start > self.timer_duration:
+            self.set_pos()              # Move the apple to a new position
+            
     def draw(self):
         logging.info("Drawing Apple")
 

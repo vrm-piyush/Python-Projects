@@ -30,8 +30,14 @@ class Snake:
         # Setup
         self.display_surface = pygame.display.get_surface()
         self.body = [pygame.Vector2(START_COL - col, START_ROW) for col in range(START_LENGTH)]
+        self.visual_body = [pos.copy() for pos in self.body]
         self.direction = pygame.Vector2(0, 0)
         self.has_eaten = False
+
+        # Movement interpolation
+        self.move_time = 0
+        self.move_duration = 100  # Time to complete one movement (ms)
+        self.last_update = pygame.time.get_ticks()
 
         # Graphics
         self.surfs = self.import_surfs()
@@ -100,8 +106,8 @@ class Snake:
         logging.info("Updating body of Snake")
 
         self.draw_data = []
-        for index, block in enumerate(self.body):
-            # Calculate the position of each body block
+        for index, block in enumerate(self.visual_body):
+            # Calculate the interpolated position of each body block
             x = block.x * CELL_SIZE
             y = block.y * CELL_SIZE
             rect = pygame.Rect(x, y, CELL_SIZE, CELL_SIZE)
@@ -130,43 +136,75 @@ class Snake:
                     elif previous_block.x == 1 and next_block.y == 1 or previous_block.y == 1 and next_block.x == 1:
                         self.draw_data.append((self.surfs['body_br'], rect))
 
+    def interpolate_movement(self):
+        current_time = pygame.time.get_ticks()
+        self.move_time = min(current_time - self.last_update, self.move_duration)
+        progress = self.move_time / self.move_duration
+
+        # Smooth interpolation using ease-out funtion
+        progress = 1 - (1 - progress) * (1 - progress)              # Quadratic ease-out function
+
+        # Interpolate each body segment
+        for i, (target, visual) in enumerate(zip(self.body, self.visual_body)):
+            diff = target - visual
+            if abs(diff.x) > COLS/2:
+                if diff.x > 0:
+                    diff.x -= COLS
+                else:
+                    diff.x += COLS
+            visual.x = (visual.x + diff.x * progress) % COLS
+            visual.y = visual.y + diff.y * progress
+
+        self.update_body()
+
     def update(self):
         logging.info("Updating Snake")
 
-        if self.direction != pygame.Vector2(0, 0):                  # Ensure the snake only moves when there's a direction
-            # Move the snake's body
-            if not self.has_eaten:
-                body_copy = self.body[:-1]
-            else:
-                body_copy = self.body[:]
-                self.has_eaten = False
+        current_time = pygame.time.get_ticks()
 
-            # Calulate the new head position with wrapping logic
-            new_head = self.body[0] + self.direction
+        if current_time - self.last_update >= self.move_duration:
+            if self.direction != pygame.Vector2(0, 0):                  # Ensure the snake only moves when there's a direction
+                # Move the snake's body
+                if not self.has_eaten:
+                    body_copy = self.body[:-1]
+                else:
+                    body_copy = self.body[:]
+                    self.has_eaten = False
 
-            # Wrap horizontally (left and right boundaries)
-            new_head.x %= COLS
-            
-            # Wrap vertically (top and bottom boundaries)
-            if new_head.y < 1.0:                                # If the new head goes above the playable area
-                new_head.y = ROWS                              # Wrap to the bottom of the screen
-            elif new_head.y >= ROWS:                            # If the new head goes below the playable area
-                new_head.y = 1                                  # Wrap to the top of the screen
+                # Calulate the new head position with wrapping logic
+                new_head = self.body[0] + self.direction
 
-            # Insert the new head
-            body_copy.insert(0, new_head)
-            self.body = body_copy[:]
+                # Wrap horizontally (left and right boundaries)
+                new_head.x %= COLS
+                
+                # Wrap vertically (top and bottom boundaries)
+                if new_head.y < 1.0:                                # If the new head goes above the playable area
+                    new_head.y = ROWS                              # Wrap to the bottom of the screen
+                elif new_head.y >= ROWS:                            # If the new head goes below the playable area
+                    new_head.y = 1                                  # Wrap to the top of the screen
 
-            self.update_head()
-            self.update_tail()
-            self.update_body()
+                # Insert the new head
+                body_copy.insert(0, new_head)
+                self.body = body_copy[:]
+
+                self.visual_body = [pos.copy() for pos in self.body]
+                self.last_update = current_time
+
+                self.update_head()
+                self.update_tail()
+
+        # Interpolate the movement every frame
+        self.interpolate_movement()
 
     def reset(self):
         logging.info("Resetting Snake")
 
         # Reset the snake to its initial state
         self.body = [pygame.Vector2(START_COL - col, START_ROW) for col in range(START_LENGTH)]
+        self.visual_body = [pos.copy() for pos in self.body]
         self.direction = pygame.Vector2(0, 0)
+        self.move_time = 0
+        self.last_update = pygame.time.get_ticks()
 
         self.update_head()
         self.update_tail()

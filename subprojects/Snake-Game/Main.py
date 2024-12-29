@@ -73,7 +73,7 @@ class Main:
         self.close_icon_rect = self.close_icon_surf.get_rect(topright=(WINDOW_WIDTH - 20, 20))
 
         self.update_event = pygame.event.custom_type()
-        pygame.time.set_timer(self.update_event, 200)
+        pygame.time.set_timer(self.update_event, 16)
 
         # Set initial game state and load fonts and sounds
         self.game_active = False
@@ -95,13 +95,7 @@ class Main:
 
         # Set up level progression data and obstacles
         self.level = 1
-        self.levels_data = [
-            {"obstacles": [], "speed": 250, 'score_to_advance': 5, 'level_obstacles': 0},
-            {"obstacles": [], "speed": 200, 'score_to_advance': 10, 'level_obstacles': 2},
-            {"obstacles": [], "speed": 150, 'score_to_advance': 15, 'level_obstacles': 3},
-            {"obstacles": [], "speed": 100, 'score_to_advance': 20, 'level_obstacles': 4},
-            {"obstacles": [], "speed": 75, 'score_to_advance': 25, 'level_obstacles': 5},
-        ]
+        self.levels_data = LEVELS_DATA
 
         # Load obstacle image
         self.obstacle_image = pygame.image.load(OBSTACLE_IMAGE_PATH).convert_alpha()
@@ -639,7 +633,11 @@ class Main:
                     if not self.game_over_displayed:
                         self.draw_bg()
                         self.snake.draw()
+
+                        # Updae and draw the apple
+                        self.apple.update()
                         self.apple.draw()
+                        
                         self.draw_shadow()
                         self.input()
                         self.draw_score()
