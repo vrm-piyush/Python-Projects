@@ -35,7 +35,7 @@ class Apple:
 
         # Load the apple image
         try:
-            self.surf = pygame.image.load(join('Graphics', 'apple.png')).convert_alpha()
+            self.surf = pygame.image.load(join(APPLE_IMAGE_PATH)).convert_alpha()
         except pygame.error as e:
             print(f"Error loading apple image: {e}")
             # Handle the error as needed, e.g., display an error message or use a default image.

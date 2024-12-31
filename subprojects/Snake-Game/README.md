@@ -1,6 +1,6 @@
-# Snake Game
+# SlitherQuest
 
-![Snake Game](Graphics/Snake%20Game.png)
+![SlitherQuest](Graphics/Snake%20Game.png)
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@
 
 ## Project Overview
 
-The Snake Game is a simple and enjoyable implementation of the classic Snake game using Pygame. Players control a snake on a grid, eat apples to grow longer, and avoid collisions with the snake's own body and obstacles.
+The SlitherQuest is a simple and enjoyable implementation of the classic SlitherQuest using Pygame. Players control a snake on a grid, eat apples to grow longer, and avoid collisions with the snake's own body and obstacles.
 
 ## Features
 

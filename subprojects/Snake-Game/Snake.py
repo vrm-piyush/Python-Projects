@@ -33,6 +33,7 @@ class Snake:
         self.visual_body = [pos.copy() for pos in self.body]
         self.direction = pygame.Vector2(0, 0)
         self.has_eaten = False
+        self.growth_segments = 1
 
         # Movement interpolation
         self.move_time = 0
@@ -40,10 +41,18 @@ class Snake:
         self.last_update = pygame.time.get_ticks()
 
         # Graphics
+        self.current_skin_path = SNAKE_SKINS['Classic']['path']
         self.surfs = self.import_surfs()
         self.draw_data = []
         self.head_surf = self.surfs['head_right']
         self.tail_surf = self.surfs['tail_left']
+        self.update_body()
+    
+    def update_skin(self, new_skin_path):
+        self.current_skin_path = new_skin_path
+        self.surfs = self.import_surfs()
+        self.update_head()
+        self.update_tail()
         self.update_body()
 
     def import_surfs(self):
@@ -52,7 +61,7 @@ class Snake:
         surf_dict = {}
         try:
             # Load snake graphics from the specified folder
-            for folder_path, _, image_names in walk(join('Graphics', 'Snake')):
+            for folder_path, _, image_names in walk(join(self.current_skin_path)):
                 for image_name in image_names:
                     full_path = join(folder_path, image_name)
                     surface = pygame.image.load(full_path).convert_alpha()
@@ -168,7 +177,7 @@ class Snake:
                 if not self.has_eaten:
                     body_copy = self.body[:-1]
                 else:
-                    body_copy = self.body[:]
+                    body_copy = self.body[:-1] + self.body[-self.growth_segments:]
                     self.has_eaten = False
 
                 # Calulate the new head position with wrapping logic

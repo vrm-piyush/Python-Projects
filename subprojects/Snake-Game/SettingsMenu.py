@@ -100,6 +100,15 @@ class SettingsMenu:
         }
         self.selected_control_scheme = 'Arrow Keys'
 
+        # Snake skins and initial skin selection
+        self.preview_rect = pygame.Rect(800, 470, 240, 120)
+        self.snake_skins = SNAKE_SKINS
+        self.selected_skin = 'Classic'
+
+        # Add skin selection arrows
+        self.left_skin_arrow_rect = pygame.Rect(750, 420, 40, 40)
+        self.right_skin_arrow_rect = pygame.Rect(1050, 420, 40, 40)
+
     def draw_sliders(self):
         # Draw curved borders for sliders
         pygame.draw.rect(self.display_surface, (160, 234, 222), self.bg_volume_slider, border_radius=20)
@@ -201,6 +210,46 @@ class SettingsMenu:
         # Draw help icon
         self.display_surface.blit(self.help_icon_surf, self.help_icon_rect)
 
+        # Draw snake skin selection
+        self.snake_skin_text = self.menu_font.render('Snake Skin', True, (244, 71, 8))
+        self.display_surface.blit(self.snake_skin_text, (800, 350))
+
+        # Draw skin selector
+        skin_rect = pygame.Rect(800, 410, 240, 60)
+        pygame.draw.rect(self.display_surface, (68, 229, 231), skin_rect, border_radius=20, width=3)
+        pygame.draw.rect(self.display_surface, (160, 234, 222), skin_rect, border_radius=20)
+
+        skin_text = self.menu_font.render(self.selected_skin, True, (0, 141, 213))
+        self.display_surface.blit(skin_text, (skin_rect.centerx - skin_text.get_width() // 2, 
+                                              skin_rect.centery - skin_text.get_height() // 2))
+        
+        # Draw skin preview
+        preview_image = self.snake_skins[self.selected_skin]['preview']
+        # Scale preview image to fit the preview rect while maintaining aspect ratio
+        preview_width = self.preview_rect.width
+        preview_height = self.preview_rect.height
+        scaled_preview = pygame.transform.scale(preview_image, (preview_width, preview_height))
+
+        # Draw preview background
+        pygame.draw.rect(self.display_surface, (160, 234, 222), self.preview_rect, border_radius=10)
+        pygame.draw.rect(self.display_surface, (68, 229, 231), self.preview_rect, border_radius=10, width=3)
+
+        # Draw preview image
+        perview_pos = (self.preview_rect.centerx - preview_width // 2, 
+                       self.preview_rect.centery - preview_height // 2)
+        self.display_surface.blit(scaled_preview, perview_pos)
+        
+        # Draw skin selection arrows
+        pygame.draw.polygon(self.display_surface, (0, 141, 213), 
+            [(self.left_skin_arrow_rect.centerx - 8, self.left_skin_arrow_rect.centery),
+             (self.left_skin_arrow_rect.centerx + 8, self.left_skin_arrow_rect.centery - 8),
+             (self.left_skin_arrow_rect.centerx + 8, self.left_skin_arrow_rect.centery + 8)])
+        
+        pygame.draw.polygon(self.display_surface, (0, 141, 213), 
+            [(self.right_skin_arrow_rect.centerx + 8, self.right_skin_arrow_rect.centery),
+             (self.right_skin_arrow_rect.centerx - 8, self.right_skin_arrow_rect.centery - 8),
+             (self.right_skin_arrow_rect.centerx - 8, self.right_skin_arrow_rect.centery + 8)])
+
         # Update the display
         pygame.display.flip()
 
@@ -241,6 +290,16 @@ class SettingsMenu:
         current_index = scheme_names.index(self.selected_control_scheme)
         next_index = (current_index + direction) % len(scheme_names)
         self.selected_control_scheme = scheme_names[next_index]
+
+    def cycle_snake_skin(self, direction):
+        logging.info("Cycling snake skin in SettingsMenu")
+
+        # Cycle through snake skins
+        skin_names = list(self.snake_skins.keys())
+        current_index = skin_names.index(self.selected_skin)
+        next_index = (current_index + direction) % len(skin_names)
+        self.selected_skin = skin_names[next_index]
+        self.main_instance.snake.update_skin(self.snake_skins[self.selected_skin]['path'])
 
     def display_help(self):
         logging.info("Displaying help message in SettingsMenu")
@@ -290,7 +349,7 @@ class SettingsMenu:
         self.display_surface.blit(self.help_bg_image, self.help_bg_image_rect)
 
         # Render and blit each line of the help instructions
-        help_heading_text = help_heading_font.render("Snake Game - Help", True, (250, 166, 19))
+        help_heading_text = help_heading_font.render("SlitherQuest - Help", True, (250, 166, 19))
         help_heading_rect = help_heading_text.get_rect(center=(WINDOW_WIDTH // 2, 170))
         self.display_surface.blit(help_heading_text, help_heading_rect)
 
@@ -451,6 +510,12 @@ class SettingsMenu:
                 
                 elif self.help_icon_rect.collidepoint(mouse_pos):
                     self.display_help()
+                
+                elif self.left_skin_arrow_rect.collidepoint(mouse_pos):
+                    self.cycle_snake_skin(-1)
+                
+                elif self.right_skin_arrow_rect.collidepoint(mouse_pos):
+                    self.cycle_snake_skin(1)
                 
                 # Check for color theme and control scheme changes
                 self.handle_color_theme(mouse_pos)

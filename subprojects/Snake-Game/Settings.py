@@ -1,5 +1,5 @@
 """
-Settings for the Snake Game
+Settings for the SlitherQuest
 
 - Define constants for the game
 - Set up logging to a file named 'snake.log'
@@ -18,6 +18,7 @@ import pygame
 import logging
 import random
 from os.path import join
+import cv2
 
 # Set up logging to a file named 'snake.log'
 log_filename = 'snake.log'
@@ -49,38 +50,58 @@ SHADOW_OPACITY = 50
 LEVELS_DATA = [
     {
         "obstacles": [], 
-        "speed": 100, 
+        "speed": 200, 
         'score_to_advance': 10, 
         'level_obstacles': 0
     },
     {
         "obstacles": [], 
-        "speed": 90, 
+        "speed": 150, 
         'score_to_advance': 20, 
         'level_obstacles': 1
     },
     {
         "obstacles": [], 
-        "speed": 80, 
+        "speed": 120, 
         'score_to_advance': 35, 
         'level_obstacles': 2
     },
     {
         "obstacles": [], 
-        "speed": 70, 
+        "speed": 100, 
         'score_to_advance': 50, 
         'level_obstacles': 3
     },
     {
         "obstacles": [], 
-        "speed": 60, 
+        "speed": 90, 
         'score_to_advance': 65, 
         'level_obstacles': 4
     },
 ]
 
+SNAKE_SKINS = {
+    'Classic': {
+        'path': 'Graphics/Snake/Classic',
+        'preview': pygame.image.load('Graphics/Snake/Previews/classic_preview.png')
+    },
+    'Neon': {
+        'path': 'Graphics/Snake/Neon',
+        'preview': pygame.image.load('Graphics/Snake/Previews/neon_preview.png')
+    },
+    # 'Pixel': {
+    #     'path': 'Graphics/Snake/Pixel',
+    #     'preview': pygame.image.load('Graphics/Snake/Previews/pixel_preview.png')
+    # },
+    'Green': {
+        'path': 'Graphics/Snake/Green',
+        'preview': pygame.image.load('Graphics/Snake/Previews/green_preview.png')
+    },
+}
+
 # Paths to various game assets
 BACKGROUND_IMAGE_PATH = 'Graphics/background_image.png'
+BACKGROUND_VIDEO_PATH = 'Graphics/1087767644-preview.mp4'
 SETTINGS_BACKGROUND_IMAGE_PATH = 'Graphics/settings_bg_image.png'
 HELP_BACKGROUND_IMAGE_PATH = 'Graphics/help_bg_image.png'
 FONT_PATH = 'Font/PoetsenOne-Regular.ttf'
@@ -93,6 +114,9 @@ X_ICON_PATH = 'Graphics/x_icon.png'
 PAUSE_ICON_PATH = 'Graphics/resume_pause_icon.png'
 RESUME_BTN_ICON_PATH = 'Graphics/resume_btn_icon.png'
 PLAY_ICON_PATH = 'Graphics/play_icon.png'
+APPLE_IMAGE_PATH = 'Graphics/apple.png'
+CRUNCH_AUDIO_PATH = 'Audio/crunch.wav'
+BG_MUSIC_PATH = 'Audio/Arcade.ogg'
 
 # Color themes for the game
 # Modify color theme definitions
@@ -101,7 +125,7 @@ CLASSIC_THEME = {
     'board_light': (170, 215, 81),      # Light green
     'board_dark': (162, 209, 61),       # Dark green
     'font_color': (254, 215, 76),       # Yellow
-    'info_color': (0, 0, 0),            # Black
+    'info_color': (255, 255, 255),            # Black
 }
 
 DARK_MODE_THEME = {

@@ -4,7 +4,7 @@
 #     http://www.apache.org/licenses/LICENSE-2.0
 
 """
-Snake Game Program.
+SlitherQuest Program.
 
 Input:
 - Arrow keys to change direction.
@@ -15,7 +15,7 @@ Input:
 
 Output:
 - Start screen with game title and instructions.
-- Snake game window.
+- SlitherQuest window.
 - Game over screen with high score.
 - Settings menu for volume and color settings.
 
@@ -46,7 +46,7 @@ from Snake import Snake
 from Apple import Apple
 from SettingsMenu import SettingsMenu
 
-# Main class for the Snake game
+# Main class for the SlitherQuest
 class Main:
     def __init__(self):
         logging.info("Initializing Main object")
@@ -64,7 +64,7 @@ class Main:
         self.home_icon_surf = pygame.image.load(HOME_ICON_PATH)
         self.home_icon_rect = self.home_icon_surf.get_rect(topleft=(15, 20))
         self.resume_pause_icon_surf = pygame.image.load(PAUSE_ICON_PATH)
-        self.resume_pause_icon_rect = self.resume_pause_icon_surf.get_rect(topright=(WINDOW_WIDTH - 225, 10))
+        self.resume_pause_icon_rect = self.resume_pause_icon_surf.get_rect(topright=(WINDOW_WIDTH - 225, 20))
         self.help_icon_surf = pygame.image.load(HELP_ICON_PATH)
         self.help_icon_rect = self.help_icon_surf.get_rect(topright=(WINDOW_WIDTH - 160, 20))
         self.settings_icon_surf = pygame.image.load(SETTINGS_ICON_PATH)
@@ -79,16 +79,16 @@ class Main:
         self.game_active = False
         self.paused = False
         self.game_over_displayed = False
-        self.crunch_sound = pygame.mixer.Sound(join('Audio', 'crunch.wav'))
-        self.bg_music = pygame.mixer.Sound(join('Audio', 'Arcade.ogg'))
+        self.crunch_sound = pygame.mixer.Sound(join(CRUNCH_AUDIO_PATH))
+        self.bg_music = pygame.mixer.Sound(join(BG_MUSIC_PATH))
         self.bg_music.set_volume(0.5)
-        # self.bg_music.play(-1)
+        #self.bg_music.play(-1)
 
         # Set up fonts for the game
         self.pause_font = pygame.font.Font(FONT_PATH, 100)
-        self.pause_text = self.pause_font.render('Paused', True, (56, 74, 12))
+        self.pause_text = self.pause_font.render('Paused', True, (6, 34, 2))
         self.pause_info_font = pygame.font.Font(FONT_PATH, 25)
-        self.pause_info_text = self.pause_info_font.render('Click the button or Press \'P\' to Resume ', True, (56, 74, 12))
+        self.pause_info_text = self.pause_info_font.render('Click the button or Press \'P\' to Resume ', True, (6, 34, 2))
         self.resume_btn_icon_surf = pygame.image.load(RESUME_BTN_ICON_PATH)
         self.resume_btn_icon_rect = self.resume_btn_icon_surf.get_rect(center=(WINDOW_WIDTH // 2, WINDOW_HEIGHT // 2 + 90))
         self.game_font = pygame.font.Font(FONT_PATH, 25)
@@ -287,7 +287,7 @@ class Main:
 
         # Set up the overlay and pause screen text surfaces
         overlay = pygame.Surface((WINDOW_WIDTH, WINDOW_HEIGHT * CELL_SIZE))
-        overlay.set_alpha(128)
+        overlay.set_alpha(158)
         overlay.fill((0, 0, 0))
         self.display_surface.blit(overlay, (0, CELL_SIZE))
 
@@ -351,46 +351,120 @@ class Main:
     def start_screen(self) -> bool:
         logging.info("Displaying start screen")
 
-        background_image = pygame.image.load(BACKGROUND_IMAGE_PATH)
-        background_image_rect = background_image.get_rect()
+        # Load the video using OpenCV
+        video = cv2.VideoCapture(BACKGROUND_VIDEO_PATH)
+
+        # background_image = pygame.image.load(BACKGROUND_IMAGE_PATH)
+        # background_image_rect = background_image.get_rect()
 
         # Set up fonts for the start screen
-        start_font = pygame.font.Font(FONT_PATH, 70)
+        start_font = pygame.font.Font(FONT_PATH, 50)
         press_space_font = pygame.font.Font(FONT_PATH, 25)
+        hover_font = pygame.font.Font(FONT_PATH, 20)
 
         center_y = WINDOW_HEIGHT // 2
 
-        # Render the start screen text surfaces
-        title_surf = start_font.render('Snake Game', True, self.font_color)
-        title_rect = title_surf.get_rect(center=(WINDOW_WIDTH // 2, center_y - 150))
+        # Create overlay surfaces
+        overlay = pygame.Surface((WINDOW_WIDTH, WINDOW_HEIGHT), pygame.SRCALPHA)
+        window_width, window_height = 875, 600
+        window_x = (WINDOW_WIDTH - window_width) // 2
+        window_y = (WINDOW_HEIGHT - window_height) // 2
 
+        icon_gap = 60
+        # Hover states and positions
+        original_positions = {
+            'play': (WINDOW_WIDTH // 2, center_y - 100),
+            'settings': (WINDOW_WIDTH // 2, center_y - 80 + icon_gap),
+            'help': (WINDOW_WIDTH // 2, center_y - 60 + 2*icon_gap),
+            'close': (WINDOW_WIDTH // 2, center_y - 40 + 3*icon_gap)
+        }
+
+        hover_offset = 20
+
+        # Create hover text surfaces
+        hover_texts = {
+            'play': hover_font.render('Play Game', True, self.font_color),
+            'settings': hover_font.render('Settings', True, self.font_color),
+            'help': hover_font.render('Help', True, self.font_color),
+            'close': hover_font.render('Exit Game', True, self.font_color)
+        }        
+
+        # Store icon surfaces and rects
         play_icon_surf = pygame.image.load(PLAY_ICON_PATH)
-        play_icon_rect = play_icon_surf.get_rect(center=(WINDOW_WIDTH // 2, center_y + 30))
+        play_icon_rect = play_icon_surf.get_rect(center=original_positions['play'])
+        settings_icon_rect = self.settings_icon_surf.get_rect(center=original_positions['settings'])
+        help_icon_rect = self.help_icon_surf.get_rect(center=original_positions['help'])
+        close_icon_rect = self.close_icon_surf.get_rect(center=original_positions['close'])
+
+        # Render the start screen text surfaces
+        title_surf = start_font.render('Welcome to SlitherQuest!', True, self.font_color)
+        title_rect = title_surf.get_rect(center=(WINDOW_WIDTH // 2, center_y - 200))
 
         press_space_surf = press_space_font.render('Click Play Button or Press Space to Start Game', True, self.info_color)
-        press_space_rect = press_space_surf.get_rect(center=(WINDOW_WIDTH // 2, center_y + 180))
-
+        press_space_rect = press_space_surf.get_rect(center=(WINDOW_WIDTH // 2, center_y + 200))
+        
         # Display the start screen and handle events
         clock = pygame.time.Clock()
         animation_time = 0
         animation_speed = 2500
 
+        def get_hover_state(mouse_pos, icon_rect):
+            return icon_rect.collidepoint(mouse_pos), icon_rect
+
         while True:
             self.update_settings()
-            self.display_surface.blit(background_image, background_image_rect)
+            mouse_pos = pygame.mouse.get_pos()
+
+            # Reset icon positions
+            play_icon_rect.center = original_positions['play']
+            settings_icon_rect.center = original_positions['settings']
+            help_icon_rect.center = original_positions['help']
+            close_icon_rect.center = original_positions['close']
+
+            # Capture video frame
+            ret, frame = video.read()
+            if not ret:
+                video.set(cv2.CAP_PROP_POS_FRAMES, 0)       # Loop the video
+                ret, frame = video.read()
+            frame = cv2.resize(frame, (WINDOW_WIDTH, WINDOW_HEIGHT))
+            frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            video_surface = pygame.surfarray.make_surface(frame)
+            video_surface = pygame.transform.rotate(video_surface, -90)
+            self.display_surface.blit(video_surface, (0, 0))
+            
+            # self.display_surface.blit(background_image, background_image_rect)
+
+            # Create the overlay with window
+            overlay.fill((0, 0, 0, 0))
+            # Draw dark overlay everywhere except the window
+            pygame.draw.rect(overlay, (0, 0, 0, 0), (0, 0, WINDOW_WIDTH, WINDOW_HEIGHT))
+            pygame.draw.rect(overlay, (0, 0, 0, 240), (window_x, window_y, window_width, window_height))
+
+            # Add a border around the window
+            border_width = 2
+            pygame.draw.rect(overlay, (0, 0, 0), 
+                             (window_x - border_width, window_y - border_width, 
+                              window_width + 2 * border_width, window_height + 2 * border_width),
+                                border_width)
+            
+            # Apply the overlay
+            self.display_surface.blit(overlay, (0, 0))
             
             # Handle events for the start screen
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:         # Quit the game
+                    video.release()
                     pygame.quit()
                     exit()
 
                 if event.type == KEYDOWN: 
                     if event.mod & KMOD_ALT and event.key == K_q:           # Quit the game
+                        video.release()
                         pygame.quit()
                         exit()
 
                     elif event.key == K_SPACE:                              # Start the game
+                        video.release()
                         return True
                 
                     elif event.mod & KMOD_SHIFT and event.key == K_s:       # Open settings menu
@@ -411,19 +485,40 @@ class Main:
                     mouse_pos = pygame.mouse.get_pos()
 
                     if play_icon_rect.collidepoint(mouse_pos):
+                        video.release()
                         return True
 
-                    if self.settings_icon_rect.collidepoint(mouse_pos):     # Open settings menu
+                    if settings_icon_rect.collidepoint(mouse_pos):     # Open settings menu
                         self.settings_menu.run()
                         self.update_volume()
                         self.update_settings()
                     
-                    if self.help_icon_rect.collidepoint(mouse_pos):         # Display help screen
+                    if help_icon_rect.collidepoint(mouse_pos):         # Display help screen
                         self.settings_menu.display_help()
 
-                    if self.close_icon_rect.collidepoint(mouse_pos):
+                    if close_icon_rect.collidepoint(mouse_pos):
+                        video.release()
                         pygame.quit()
                         exit()
+
+            # Check hover states and adjust positions
+            hover_states = {
+                'play': get_hover_state(mouse_pos, play_icon_rect),
+                'settings': get_hover_state(mouse_pos, settings_icon_rect),
+                'help': get_hover_state(mouse_pos, help_icon_rect),
+                'close': get_hover_state(mouse_pos, close_icon_rect)
+            }
+
+            # Apply hover effects and draw icons
+            for icon_name, (is_hover, icon_rect) in hover_states.items():
+                if is_hover:
+                    # Shift icon position left 
+                    icon_rect.centerx -= hover_offset                    
+
+                    # Draw hover text
+                    text_surf = hover_texts[icon_name]
+                    text_rect = text_surf.get_rect(midleft=(icon_rect.right + 10, icon_rect.centery))
+                    self.display_surface.blit(text_surf, text_rect)
 
             # Animate the start screen text surfaces
             if animation_time < animation_speed:
@@ -431,20 +526,22 @@ class Main:
                 title_surf.set_alpha(alpha)
                 play_icon_surf.set_alpha(alpha)
                 press_space_surf.set_alpha(alpha)
-                background_image.set_alpha(alpha)
+                # background_image.set_alpha(alpha)
             else:
                 title_surf.set_alpha(255)
                 play_icon_surf.set_alpha(255)
                 press_space_surf.set_alpha(255)
-                background_image.set_alpha(255)
+                # background_image.set_alpha(255)
     
             # Blit the start screen text surfaces
             self.display_surface.blit(title_surf, title_rect)
             self.display_surface.blit(play_icon_surf, play_icon_rect)
             self.display_surface.blit(press_space_surf, press_space_rect)
-            self.draw_settings_icon()
-            self.draw_help_icon()
-            self.draw_close_icon()
+
+            # Draw the icons
+            self.display_surface.blit(self.settings_icon_surf, settings_icon_rect)
+            self.display_surface.blit(self.help_icon_surf, help_icon_rect)
+            self.display_surface.blit(self.close_icon_surf, close_icon_rect)
             
             pygame.display.update()                     # Update the display
             clock.tick(FPS)                             # Set the frame rate
@@ -542,7 +639,7 @@ class Main:
         start_font = pygame.font.Font(FONT_PATH, 70)
         press_space_font = pygame.font.Font(FONT_PATH, 25)
 
-        self.title_surf = start_font.render('Snake Game', True, self.font_color)
+        self.title_surf = start_font.render('SlitherQuest', True, self.font_color)
         self.title_rect = self.title_surf.get_rect(center=(WINDOW_WIDTH // 2, WINDOW_HEIGHT // 2 - 50))
 
         self.press_space_surf = press_space_font.render('Press Space to start game', True, self.info_color)
