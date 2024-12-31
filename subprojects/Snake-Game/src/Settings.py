@@ -82,41 +82,41 @@ LEVELS_DATA = [
 
 SNAKE_SKINS = {
     'Classic': {
-        'path': 'Graphics/Snake/Classic',
-        'preview': pygame.image.load('Graphics/Snake/Previews/classic_preview.png')
+        'path': '../assets/graphics/snake/classic',
+        'preview': pygame.image.load('../assets/graphics/snake/previews/classic_preview.png')
     },
     'Neon': {
-        'path': 'Graphics/Snake/Neon',
-        'preview': pygame.image.load('Graphics/Snake/Previews/neon_preview.png')
+        'path': '../assets/graphics/snake/neon',
+        'preview': pygame.image.load('../assets/graphics/snake/previews/neon_preview.png')
     },
     # 'Pixel': {
-    #     'path': 'Graphics/Snake/Pixel',
-    #     'preview': pygame.image.load('Graphics/Snake/Previews/pixel_preview.png')
+    #     'path': '../assets/graphics/snake/pixel',
+    #     'preview': pygame.image.load('../assets/graphics/snake/previews/pixel_preview.png')
     # },
     'Green': {
-        'path': 'Graphics/Snake/Green',
-        'preview': pygame.image.load('Graphics/Snake/Previews/green_preview.png')
+        'path': '../assets/graphics/snake/green',
+        'preview': pygame.image.load('../assets/graphics/snake/previews/green_preview.png')
     },
 }
 
 # Paths to various game assets
-BACKGROUND_IMAGE_PATH = 'Graphics/background_image.png'
-BACKGROUND_VIDEO_PATH = 'Graphics/1087767644-preview.mp4'
-SETTINGS_BACKGROUND_IMAGE_PATH = 'Graphics/settings_bg_image.png'
-HELP_BACKGROUND_IMAGE_PATH = 'Graphics/help_bg_image.png'
-FONT_PATH = 'Font/PoetsenOne-Regular.ttf'
-GAME_ICON_PATH = 'Graphics/snake_icon.png'
-OBSTACLE_IMAGE_PATH = 'Graphics/obstacle.png'
-SETTINGS_ICON_PATH = 'Graphics/settings_icon.png'
-HOME_ICON_PATH = 'Graphics/home_icon.png'
-HELP_ICON_PATH = 'Graphics/help_icon.png'
-X_ICON_PATH = 'Graphics/x_icon.png'
-PAUSE_ICON_PATH = 'Graphics/resume_pause_icon.png'
-RESUME_BTN_ICON_PATH = 'Graphics/resume_btn_icon.png'
-PLAY_ICON_PATH = 'Graphics/play_icon.png'
-APPLE_IMAGE_PATH = 'Graphics/apple.png'
-CRUNCH_AUDIO_PATH = 'Audio/crunch.wav'
-BG_MUSIC_PATH = 'Audio/Arcade.ogg'
+BACKGROUND_IMAGE_PATH = '../assets/graphics/background/background_image.png'
+BACKGROUND_VIDEO_PATH = '../assets/graphics/1087767644-preview.mp4'
+SETTINGS_BACKGROUND_IMAGE_PATH = '../assets/graphics/background/settings_bg_image.png'
+HELP_BACKGROUND_IMAGE_PATH = '../assets/graphics/background/help_bg_image.png'
+FONT_PATH = '../assets/font/PoetsenOne-Regular.ttf'
+GAME_ICON_PATH = '../assets/graphics/icons/game_icon.png'
+OBSTACLE_IMAGE_PATH = '../assets/graphics/icons/obstacle_icon.png'
+SETTINGS_ICON_PATH = '../assets/graphics/icons/settings_icon.png'
+HOME_ICON_PATH = '../assets/graphics/icons/home_icon.png'
+HELP_ICON_PATH = '../assets/graphics/icons/help_icon.png'
+RESUNE_PAUSE_ICON_PATH = '../assets/graphics/icons/resume_pause_icon.png'
+RESUME_BTN_ICON_PATH = '../assets/graphics/icons/resume_btn_icon.png'
+PLAY_ICON_PATH = '../assets/graphics/icons/play_icon.png'
+APPLE_IMAGE_PATH = '../assets/graphics/icons/apple_icon.png'
+CRUNCH_AUDIO_PATH = '../assets/audio/crunch.wav'
+BG_MUSIC_PATH = '../assets/audio/Arcade.ogg'
+EXIT_ICON_PATH = '../assets/graphics/icons/x_icon.png'
 
 # Color themes for the game
 # Modify color theme definitions

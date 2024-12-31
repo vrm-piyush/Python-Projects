@@ -58,7 +58,7 @@ class SettingsMenu:
         self.help_icon_surf = pygame.image.load(HELP_ICON_PATH)
         self.help_icon_rect = self.help_icon_surf.get_rect(topright=(WINDOW_WIDTH - 20, 25))
 
-        self.x_icon_surf = pygame.image.load(X_ICON_PATH)
+        self.x_icon_surf = pygame.image.load(EXIT_ICON_PATH)
         self.x_icon_rect = self.x_icon_surf.get_rect(topright=(WINDOW_WIDTH - 20, 25))
         
         # Color themes and initial theme selection

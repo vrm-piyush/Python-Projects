@@ -82,7 +82,7 @@ Please refer to `requirements.txt` file for dependencies.
 | 30      | **[RockPaperScissorsGame](subprojects/RockPaperScissorsGame/)**           | Classic rock-paper-scissors game.                  | [Piyush Verma](https://github.com/vrm-piyush) |
 | 31      | **[RomanDecimalConverter](subprojects/RomanDecimalConverter/)**           | Converts Roman numerals to decimal and vice versa. | [Piyush Verma](https://github.com/vrm-piyush) |
 | 32      | **[ShortStoryGenerator](subprojects/ShortStoryGenerator/)**               | Generates short stories based on user input.       | [Piyush Verma](https://github.com/vrm-piyush) |
-| 33      | **[Snake-Game](subprojects/Snake-Game/)**                                 | Classic snake game implementation.                 | [Piyush Verma](https://github.com/vrm-piyush) |
+| 33      | **[Snake-Game](subprojects/Snake-Game/)**                                 | Classic SlitherQuest implementation.               | [Piyush Verma](https://github.com/vrm-piyush) |
 | 34      | **[TemperatureConverter](subprojects/TemperatureConverter/)**             | Converts temperatures between different units.     | [Piyush Verma](https://github.com/vrm-piyush) |
 | 35      | **[TicTacToeGame](subprojects/TicTacToeGame/)**                           | Classic Tic-Tac-Toe game.                          | [Piyush Verma](https://github.com/vrm-piyush) |
 | 36      | **[URLShortener](subprojects/URLShortener/)**                             | Shortens URLs.                                     | [Piyush Verma](https://github.com/vrm-piyush) |

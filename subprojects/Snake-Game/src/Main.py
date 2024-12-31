@@ -63,13 +63,13 @@ class Main:
         # Load icons and set up the update event
         self.home_icon_surf = pygame.image.load(HOME_ICON_PATH)
         self.home_icon_rect = self.home_icon_surf.get_rect(topleft=(15, 20))
-        self.resume_pause_icon_surf = pygame.image.load(PAUSE_ICON_PATH)
+        self.resume_pause_icon_surf = pygame.image.load(RESUNE_PAUSE_ICON_PATH)
         self.resume_pause_icon_rect = self.resume_pause_icon_surf.get_rect(topright=(WINDOW_WIDTH - 225, 20))
         self.help_icon_surf = pygame.image.load(HELP_ICON_PATH)
         self.help_icon_rect = self.help_icon_surf.get_rect(topright=(WINDOW_WIDTH - 160, 20))
         self.settings_icon_surf = pygame.image.load(SETTINGS_ICON_PATH)
         self.settings_icon_rect = self.settings_icon_surf.get_rect(topright=(WINDOW_WIDTH - 90, 20))
-        self.close_icon_surf = pygame.image.load(X_ICON_PATH)
+        self.close_icon_surf = pygame.image.load(EXIT_ICON_PATH)
         self.close_icon_rect = self.close_icon_surf.get_rect(topright=(WINDOW_WIDTH - 20, 20))
 
         self.update_event = pygame.event.custom_type()
