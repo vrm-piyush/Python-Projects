@@ -1,6 +1,6 @@
 # SlitherQuest
 
-![SlitherQuest](Graphics/Snake%20Game.png)
+![SlitherQuest](assets/graphics/icons/game_icon.png)
 
 ## Table of Contents
 
@@ -48,15 +48,15 @@ The SlitherQuest is a simple and enjoyable implementation of the classic Slither
 - `Main.py`: Main file containing the game's main logic.
 - `Snake.py`: Snake class handling the snake's behavior.
 - `Apple.py`: Apple class managing apple-related functions.
-- `Settingsmenu.py`: SettingsMenu class for game settings customization.
+- `SettingsMenu.py`: SettingsMenu class for game settings customization.
 - `Settings.py`: Configuration file with game constants and themes.
-- `Graphics`: Folder containing Images
+- `assets/graphics`: Folder containing Images
 
 ## How to Play
 
 1. **Run the Script:**
 
-   - Execute `main.py` script to start the game.
+   - Execute `Main.py` script to start the game.
 
 2. **Follow On-Screen Instructions:**
 
@@ -79,9 +79,9 @@ python Main.py
 ```
 
 \
-![Output](Graphics/image.png)
+![Output](assets/graphics/background/background_image.png)
 
-<video width="400" height="400" controls src="Output video/Snake_Game_Output.mp4" type="video/mp4">
+<video width="400" height="400" controls src="output/Snake_Game_Output.mp4" type="video/mp4">
 </video>
 
 ## Features to be Added
