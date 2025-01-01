@@ -419,7 +419,7 @@ scikit-learn-intelex==20230426.122314
 scipy==1.13.0
 Scrapy @ file:///C:/b/abs_9fn69i_d86/croot/scrapy_1677738199744/work
 seaborn==0.13.2
-selenium==4.10.0
+selenium==4.27.1
 semver @ file:///tmp/build/80754af9/semver_1603822362442/work
 Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
 service-identity @ file:///Users/ktietz/demo/mc3/conda-bld/service_identity_1629460757137/work
