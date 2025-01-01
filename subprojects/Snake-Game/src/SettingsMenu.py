@@ -77,7 +77,7 @@ class SettingsMenu:
         # Set up UI elements
         self.bg_volume_slider = pygame.Rect(220, 300, 200, 50)
         self.crunch_vol_slider = pygame.Rect(220, 520, 200, 50)
-        self.back_button = pygame.Rect(520, 650, 200, 50)
+        self.back_button = pygame.Rect(220, 700, 200, 50)
 
         # Set initial volume values
         self.bg_volume_value = 50
@@ -92,6 +92,10 @@ class SettingsMenu:
         self.left_scheme_arrow_rect = pygame.Rect(750, 530, 40, 40)
         self.right_scheme_arrow_rect = pygame.Rect(1050, 530, 40, 40)
 
+        # Add skin selection arrows
+        self.left_skin_arrow_rect = pygame.Rect(750, 760, 40, 40)
+        self.right_skin_arrow_rect = pygame.Rect(1050, 760, 40, 40)
+
         # Control schemes and initial scheme selection
         self.control_schemes = {
             'Arrow Keys': ARROW_KEYS,
@@ -101,13 +105,9 @@ class SettingsMenu:
         self.selected_control_scheme = 'Arrow Keys'
 
         # Snake skins and initial skin selection
-        self.preview_rect = pygame.Rect(800, 470, 240, 120)
+        self.preview_rect = pygame.Rect(830, 670, 190, 65)
         self.snake_skins = SNAKE_SKINS
         self.selected_skin = 'Classic'
-
-        # Add skin selection arrows
-        self.left_skin_arrow_rect = pygame.Rect(750, 420, 40, 40)
-        self.right_skin_arrow_rect = pygame.Rect(1050, 420, 40, 40)
 
     def draw_sliders(self):
         # Draw curved borders for sliders
@@ -141,15 +141,18 @@ class SettingsMenu:
         self.title_text = self.title_font.render('Settings', True, (13, 12, 29))
         self.title_rect = self.title_text.get_rect(center=(WINDOW_WIDTH // 2, 100))
 
-        self.bg_volume_text = self.menu_font.render('Background Volume', True, (244, 71, 8))
-        self.crunch_vol_text = self.menu_font.render('Crunch Volume', True, (244, 71, 8))
+        self.bg_volume_text = self.menu_font.render('Background Volume', True, (244, 255, 255))
+        self.crunch_vol_text = self.menu_font.render('Crunch Volume', True, (244, 255, 255))
         self.back_text = self.menu_font.render('Back', True, (255, 255, 255))
         
-        self.color_theme_text = self.menu_font.render('Color Theme', True, (244, 71, 8))
+        self.color_theme_text = self.menu_font.render('Color Theme', True, (244, 255, 255))
         self.color_theme_rect = pygame.Rect(550, 300, 200, 50)
 
-        self.control_scheme_text = self.menu_font.render('Control Scheme', True, (244, 71, 8))
+        self.control_scheme_text = self.menu_font.render('Control Scheme', True, (244, 255, 255))
         self.control_scheme_rect = pygame.Rect(520, 350, 200, 50)
+
+        self.snake_skin_text = self.menu_font.render('Snake Skin', True, (244, 255, 255))
+        self.snake_skin_text_rect = pygame.Rect(520, 350, 200, 50)
 
         # Clear the display
         self.display_surface.blit(settings_background_image, settings_background_image_rect)
@@ -170,15 +173,15 @@ class SettingsMenu:
         self.display_surface.blit(theme_text, (theme_rect.centerx - theme_text.get_width() // 2, theme_rect.centery - theme_text.get_height() // 2))
 
         # Draw arrow buttons for cycling color themes
-        pygame.draw.polygon(self.display_surface, (0, 141, 213), [(self.left_arrow_rect.centerx - 8, self.left_arrow_rect.centery),
-                                                                   (self.left_arrow_rect.centerx + 8, self.left_arrow_rect.centery - 8),
-                                                                   (self.left_arrow_rect.centerx + 8, self.left_arrow_rect.centery + 8)])
+        pygame.draw.polygon(self.display_surface, (0, 141, 213), 
+                            [(self.left_arrow_rect.centerx - 8, self.left_arrow_rect.centery),
+                            (self.left_arrow_rect.centerx + 8, self.left_arrow_rect.centery - 8),
+                            (self.left_arrow_rect.centerx + 8, self.left_arrow_rect.centery + 8)])
         
-        pygame.draw.polygon(self.display_surface, (0, 141, 213), [(self.right_arrow_rect.centerx + 8, self.right_arrow_rect.centery),
-                                                                   (self.right_arrow_rect.centerx - 8, self.right_arrow_rect.centery - 8),
-                                                                   (self.right_arrow_rect.centerx - 8, self.right_arrow_rect.centery + 8)])
-        
-        self.display_surface.blit(self.control_scheme_text, (770, 450))
+        pygame.draw.polygon(self.display_surface, (0, 141, 213), 
+                            [(self.right_arrow_rect.centerx + 8, self.right_arrow_rect.centery),
+                            (self.right_arrow_rect.centerx - 8, self.right_arrow_rect.centery - 8),
+                            (self.right_arrow_rect.centerx - 8, self.right_arrow_rect.centery + 8)])
 
         # Draw control scheme section
         self.display_surface.blit(self.control_scheme_text, (770, 450))
@@ -192,13 +195,15 @@ class SettingsMenu:
         self.display_surface.blit(scheme_text, (scheme_rect.centerx - scheme_text.get_width() // 2, scheme_rect.centery - scheme_text.get_height() // 2))
 
         # Draw arrow buttons for cycling control schemes
-        pygame.draw.polygon(self.display_surface, (0, 141, 213), [(self.left_scheme_arrow_rect.centerx - 8, self.left_scheme_arrow_rect.centery),
-                                                                    (self.left_scheme_arrow_rect.centerx + 8, self.left_scheme_arrow_rect.centery - 8),
-                                                                    (self.left_scheme_arrow_rect.centerx + 8, self.left_scheme_arrow_rect.centery + 8)])
+        pygame.draw.polygon(self.display_surface, (0, 141, 213), 
+                            [(self.left_scheme_arrow_rect.centerx - 8, self.left_scheme_arrow_rect.centery),
+                            (self.left_scheme_arrow_rect.centerx + 8, self.left_scheme_arrow_rect.centery - 8),
+                            (self.left_scheme_arrow_rect.centerx + 8, self.left_scheme_arrow_rect.centery + 8)])
         
-        pygame.draw.polygon(self.display_surface, (0, 141, 213), [(self.right_scheme_arrow_rect.centerx + 8, self.right_scheme_arrow_rect.centery),
-                                                                    (self.right_scheme_arrow_rect.centerx - 8, self.right_scheme_arrow_rect.centery - 8),
-                                                                    (self.right_scheme_arrow_rect.centerx - 8, self.right_scheme_arrow_rect.centery + 8)])
+        pygame.draw.polygon(self.display_surface, (0, 141, 213), 
+                            [(self.right_scheme_arrow_rect.centerx + 8, self.right_scheme_arrow_rect.centery),
+                            (self.right_scheme_arrow_rect.centerx - 8, self.right_scheme_arrow_rect.centery - 8),
+                            (self.right_scheme_arrow_rect.centerx - 8, self.right_scheme_arrow_rect.centery + 8)])
 
         # Draw back button
         pygame.draw.ellipse(self.display_surface, (222, 26, 26), self.back_button)
@@ -210,12 +215,11 @@ class SettingsMenu:
         # Draw help icon
         self.display_surface.blit(self.help_icon_surf, self.help_icon_rect)
 
-        # Draw snake skin selection
-        self.snake_skin_text = self.menu_font.render('Snake Skin', True, (244, 71, 8))
-        self.display_surface.blit(self.snake_skin_text, (800, 350))
+        # Draw snake skin section
+        self.display_surface.blit(self.snake_skin_text, (800, 600))
 
         # Draw skin selector
-        skin_rect = pygame.Rect(800, 410, 240, 60)
+        skin_rect = pygame.Rect(800, 750, 240, 60)
         pygame.draw.rect(self.display_surface, (68, 229, 231), skin_rect, border_radius=20, width=3)
         pygame.draw.rect(self.display_surface, (160, 234, 222), skin_rect, border_radius=20)
 
@@ -228,27 +232,27 @@ class SettingsMenu:
         # Scale preview image to fit the preview rect while maintaining aspect ratio
         preview_width = self.preview_rect.width
         preview_height = self.preview_rect.height
-        scaled_preview = pygame.transform.scale(preview_image, (preview_width, preview_height))
+        scaled_preview = pygame.transform.scale(preview_image, (preview_width // 1.5, preview_height // 1.5))
 
         # Draw preview background
-        pygame.draw.rect(self.display_surface, (160, 234, 222), self.preview_rect, border_radius=10)
-        pygame.draw.rect(self.display_surface, (68, 229, 231), self.preview_rect, border_radius=10, width=3)
+        pygame.draw.rect(self.display_surface, (160, 234, 222), self.preview_rect, border_radius=20)
+        pygame.draw.rect(self.display_surface, (68, 229, 231), self.preview_rect, border_radius=20, width=3)
 
         # Draw preview image
-        perview_pos = (self.preview_rect.centerx - preview_width // 2, 
-                       self.preview_rect.centery - preview_height // 2)
+        perview_pos = (self.preview_rect.centerx - preview_width // 2 + 30, 
+                       self.preview_rect.centery - preview_height // 2 + 10)
         self.display_surface.blit(scaled_preview, perview_pos)
         
         # Draw skin selection arrows
         pygame.draw.polygon(self.display_surface, (0, 141, 213), 
-            [(self.left_skin_arrow_rect.centerx - 8, self.left_skin_arrow_rect.centery),
-             (self.left_skin_arrow_rect.centerx + 8, self.left_skin_arrow_rect.centery - 8),
-             (self.left_skin_arrow_rect.centerx + 8, self.left_skin_arrow_rect.centery + 8)])
-        
+                            [(self.left_skin_arrow_rect.centerx - 8, self.left_skin_arrow_rect.centery),
+                             (self.left_skin_arrow_rect.centerx + 8, self.left_skin_arrow_rect.centery - 8),
+                             (self.left_skin_arrow_rect.centerx + 8, self.left_skin_arrow_rect.centery + 8)])
+
         pygame.draw.polygon(self.display_surface, (0, 141, 213), 
-            [(self.right_skin_arrow_rect.centerx + 8, self.right_skin_arrow_rect.centery),
-             (self.right_skin_arrow_rect.centerx - 8, self.right_skin_arrow_rect.centery - 8),
-             (self.right_skin_arrow_rect.centerx - 8, self.right_skin_arrow_rect.centery + 8)])
+                            [(self.right_skin_arrow_rect.centerx + 8, self.right_skin_arrow_rect.centery),
+                             (self.right_skin_arrow_rect.centerx - 8, self.right_skin_arrow_rect.centery - 8),
+                             (self.right_skin_arrow_rect.centerx - 8, self.right_skin_arrow_rect.centery + 8)])
 
         # Update the display
         pygame.display.flip()
