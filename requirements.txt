@@ -127,7 +127,7 @@ fastjsonschema @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_ebruxzvd08/cro
 feedfinder2==0.0.4
 feedparser==6.0.11
 filelock==3.13.1
-fiona==1.9.6
+fiona==1.10.0
 flake8 @ file:///C:/b/abs_9f6_n1jlpc/croot/flake8_1674581816810/work
 Flask==2.3.3
 Flask-Bcrypt==1.0.1
@@ -502,16 +502,16 @@ Unidecode @ file:///tmp/build/80754af9/unidecode_1614712377438/work
 urllib3 @ file:///C:/b/abs_9cmlsrm3ys/croot/urllib3_1698257595508/work
 validators==0.28.3
 venusian==3.1.0
-virtualenv==20.25.1
+virtualenv==20.26.6
 w3lib @ file:///Users/ktietz/demo/mc3/conda-bld/w3lib_1629359764703/work
 wasabi==1.1.2
 watchdog @ file:///C:/ci/watchdog_1638367441841/work
 wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 weasel==0.3.4
 webencodings==0.5.1
-WebOb==1.8.7
+WebOb==1.8.8
 websocket-client @ file:///C:/ci/websocket-client_1614804375980/work
-Werkzeug==3.0.3
+Werkzeug==3.0.6
 whatthepatch @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_e7bihs8grh/croots/recipe/whatthepatch_1661796085215/work
 widgetsnbextension @ file:///C:/b/abs_882k4_4kdf/croot/widgetsnbextension_1679313880295/work
 wikipedia==1.4.0
